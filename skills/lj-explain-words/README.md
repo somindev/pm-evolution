@@ -1,4 +1,4 @@
-# ljg-skill-explain-words
+# lj-skill-explain-words
 
 单词灵魂解剖师 (Word Soul Master) — 一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Skill，深度解构英文单词的词源、核心语义、语感光谱与语义拓扑，生成博物馆级 HTML 卡片。
 
@@ -14,8 +14,8 @@
 ## 安装
 
 ```bash
-/plugin marketplace add lijigang/ljg-skill-explain-words
-/plugin install ljg-explain-words
+/plugin marketplace add lijun/lj-explain-words
+/plugin install lj-explain-words
 ```
 
 ## 使用
@@ -23,7 +23,7 @@
 在 Claude Code 中输入：
 
 ```
-/ljg-explain-words Serendipity
+/lj-explain-words Serendipity
 ```
 
 ## 输出示例
