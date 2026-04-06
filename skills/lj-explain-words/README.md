@@ -1,4 +1,4 @@
-# lj-skill-explain-words
+# lj-explain-words
 
 单词灵魂解剖师 (Word Soul Master) — 一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Skill，深度解构英文单词的词源、核心语义、语感光谱与语义拓扑，生成博物馆级 HTML 卡片。
 
@@ -13,9 +13,11 @@
 
 ## 安装
 
+将本技能文件夹（`lj-explain-words`）复制或建立软链接到系统特定的技能目录中（对于 Claude Code 通常位于 `~/.claude/skills/`），然后重启对话即可自动加载并使用该技能。
+
 ```bash
-/plugin marketplace add lijun/lj-explain-words
-/plugin install lj-explain-words
+# 示例：将该技能复制到 Claude Code 技能目录下
+cp -r lj-explain-words ~/.claude/skills/
 ```
 
 ## 使用
