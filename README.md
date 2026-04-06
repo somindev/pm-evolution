@@ -13,6 +13,9 @@
 ### 🎬 媒体处理
 - `lj-video-download` — 视频下载技能，支持小红书、B站、YouTube、抖音等 1000+ 平台
 
+### 📊 可视化
+- `lj-mermaid-visualizer` — 将文本转换为专业 Mermaid 图表，支持流程图、架构图、思维导图等
+
 ### 📖 学习工具
 - `lj-explain-words` — 深度词汇学习，提供词源、语义和视觉拓扑分析
 
@@ -27,9 +30,10 @@
 ```
 pm-evolution/
 ├── skills/
-│   ├── promptx/           # Prompt 工程技能
-│   ├── lj-video-download/ # 视频下载技能
-│   └── lj-explain-words/  # 词汇学习技能
+│   ├── promptx/                # Prompt 工程技能
+│   ├── lj-video-download/      # 视频下载技能
+│   ├── lj-explain-words/       # 词汇学习技能
+│   └── lj-mermaid-visualizer/  # 图表可视化技能
 ├── README.md
 └── .gitignore
 ```
