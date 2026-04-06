@@ -13,6 +13,9 @@
 ### 🎬 媒体处理
 - `lj-video-download` — 视频下载技能，支持小红书、B站、YouTube、抖音等 1000+ 平台
 
+### 📖 学习工具
+- `lj-explain-words` — 深度词汇学习，提供词源、语义和视觉拓扑分析
+
 ### 💻 代码编写
 - 待补充...
 
@@ -24,8 +27,9 @@
 ```
 pm-evolution/
 ├── skills/
-│   └── promptx/           # Prompt 工程技能
-│       └── SKILL.md
+│   ├── promptx/           # Prompt 工程技能
+│   ├── lj-video-download/ # 视频下载技能
+│   └── lj-explain-words/  # 词汇学习技能
 ├── README.md
 └── .gitignore
 ```
