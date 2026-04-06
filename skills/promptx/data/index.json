@@ -1,0 +1,3012 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-27T13:39:45.924736",
+  "total_frameworks": 57,
+  "domains": {
+    "education": 10,
+    "technical": 44,
+    "decision": 2,
+    "creative": 17,
+    "problem": 14,
+    "business": 2
+  },
+  "task_types": {
+    "prompt_engineering": 55,
+    "content_creation": 27,
+    "analysis": 12,
+    "decision_making": 7,
+    "problem_solving": 15,
+    "brainstorming": 15
+  },
+  "complexity_levels": {
+    "simple": 0,
+    "medium": 16,
+    "complex": 41
+  },
+  "frameworks": {
+    "01": {
+      "id": "01",
+      "filename": "01_Elevating_learning_objectives_withBlooms_Taxonomy_Prompts.md",
+      "name": "Elevating learning objectives withBloom's Taxonomy Prompts",
+      "acronym": "",
+      "description": "By leveraging Bloom's Taxonomy in prompt engineering, educators and content creators can craft questions and tasks that not only assess knowledge but also encourage students to apply, analyze, synthesize, and evaluate information in a structured and progressive manner.",
+      "domains": [
+        "education",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation",
+        "analysis"
+      ],
+      "components": [
+        "Remember",
+        "Understand",
+        "Apply",
+        "Analyze",
+        "Evaluate",
+        "Create",
+        "Promotes Cognitive Development",
+        "Structured Learning Objectives",
+        "Versatile Application",
+        "May Require Additional Training"
+      ],
+      "strengths": [
+        "Promotes Cognitive Development",
+        "Structured Learning Objectives",
+        "Versatile Application"
+      ],
+      "weaknesses": [
+        "May Require Additional Training",
+        "Potential for Misapplication"
+      ],
+      "optimal_for": [
+        "y're instrumental in crafting lesson plans, quizzes, and interactive activities that cater to a spectrum of cognitive abilities"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "elevating",
+        "learning",
+        "objectives",
+        "withbloom",
+        "taxonomy",
+        "prompts",
+        "leveraging",
+        "bloom",
+        "prompt",
+        "engineering"
+      ]
+    },
+    "02": {
+      "id": "02",
+      "filename": "02_Evaluating_decisions_withPros_and_Cons_Analysis.md",
+      "name": "Evaluating decisions withPros and Cons Analysis",
+      "acronym": "",
+      "description": "Navigate the complexities of decision-making with the Pros and Cons Analysis, a straightforward yet powerful tool for weighing the advantages and disadvantages of various options. This method facilitates informed decision-making by clearly outlining the potential outcomes and implications of differe",
+      "domains": [
+        "technical",
+        "decision"
+      ],
+      "task_types": [
+        "decision_making",
+        "analysis"
+      ],
+      "components": [
+        "Identify Options",
+        "List Pros",
+        "List Cons",
+        "Evaluate and Compare",
+        "Simple and Accessible",
+        "Facilitates Clarity",
+        "Promotes Balanced Decision-Making",
+        "Subjectivity",
+        "Lacks Quantitative Analysis"
+      ],
+      "strengths": [
+        "Simple and Accessible",
+        "Facilitates Clarity",
+        "Promotes Balanced Decision-Making"
+      ],
+      "weaknesses": [
+        "Subjectivity",
+        "Lacks Quantitative Analysis"
+      ],
+      "optimal_for": [
+        "It's particularly useful when comparing a limited number of options and where a quick, straightforward evaluation is needed"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "evaluating",
+        "decisions",
+        "withpros",
+        "cons",
+        "analysis",
+        "navigate",
+        "complexities",
+        "decision",
+        "making",
+        "pros"
+      ]
+    },
+    "03": {
+      "id": "03",
+      "filename": "03_Enhancing_AI_interactions_withthe_3Cs_Model_for_Prompt_Engineering.md",
+      "name": "Enhancing AI interactions withthe 3C's Model for Prompt Engineering",
+      "acronym": "",
+      "description": "By applying the principles of Clarity, Coherence, and Consistency, this model aids in crafting prompts that are not only precise but also aligned with the intended outcomes, thereby enhancing the efficiency and effectiveness of AI-generated content.",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Clarity",
+        "Coherence",
+        "Consistency",
+        "Enhances AI Comprehension",
+        "Improves User Experience",
+        "Optimizes Development Time",
+        "May Restrict Creativity",
+        "Requires Upfront Planning"
+      ],
+      "strengths": [
+        "Enhances AI Comprehension",
+        "Improves User Experience",
+        "Optimizes Development Time"
+      ],
+      "weaknesses": [
+        "May Restrict Creativity",
+        "Requires Upfront Planning"
+      ],
+      "optimal_for": [
+        "It's invaluable for ensuring that AI interactions are aligned with user needs and expectations"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "enhancing",
+        "interactions",
+        "withthe",
+        "prompt",
+        "engineering",
+        "applying",
+        "principles",
+        "clarity",
+        "coherence",
+        "consistency"
+      ]
+    },
+    "04": {
+      "id": "04",
+      "filename": "04_Streamlining_AI_interactions_withthe_4S_Method_for_Prompt_Engineering.md",
+      "name": "Streamlining AI interactions withthe 4S Method for Prompt Engineering",
+      "acronym": "",
+      "description": "Introduce the 4S Method, a dynamic framework designed specifically for enhancing the craft of prompt engineering in AI applications. This method, emphasizing Simplicity, Specificity, Sensitivity, and Structure, provides a comprehensive approach to developing prompts that yield precise, contextually ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Simplicity",
+        "Specificity",
+        "Sensitivity",
+        "Structure",
+        "Enhanced Clarity",
+        "Targeted Outputs",
+        "Contextual Awareness",
+        "May Require Iteration",
+        "Limited Creativity"
+      ],
+      "strengths": [
+        "Enhanced Clarity",
+        "Targeted Outputs",
+        "Contextual Awareness"
+      ],
+      "weaknesses": [
+        "May Require Iteration",
+        "Limited Creativity"
+      ],
+      "optimal_for": [
+        "It's an effective strategy for ensuring that AI interactions are clear, relevant, respectful, and well-organized"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "streamlining",
+        "interactions",
+        "withthe",
+        "prompt",
+        "engineering",
+        "introduce",
+        "dynamic",
+        "designed",
+        "specifically",
+        "enhancing"
+      ]
+    },
+    "05": {
+      "id": "05",
+      "filename": "05_Enhancing_goal-directed_AI_interactions_withthe_APE_Framework_for_Prompt_Engineering.md",
+      "name": "Enhancing goal-directed AI interactions withthe APE Framework for Prompt Engineering",
+      "acronym": "",
+      "description": "Embrace the APE Framework, an elegant and effective methodology tailored for AI Prompt Engineering. This strategic approach guides the crafting of prompts to clearly articulate the action desired from the AI, the purpose behind the prompt, and the expectation of the response, ensuring a high degree ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Action",
+        "Purpose",
+        "Expectation",
+        "Clear Guidance",
+        "Contextual Understanding",
+        "Defined Outcomes",
+        "Complex Prompt Design",
+        "May Limit Creativity"
+      ],
+      "strengths": [
+        "Clear Guidance",
+        "Contextual Understanding",
+        "Defined Outcomes"
+      ],
+      "weaknesses": [
+        "Complex Prompt Design",
+        "May Limit Creativity"
+      ],
+      "optimal_for": [
+        "It's particularly valuable for projects requiring detailed and purpose-driven AI contributions"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "enhancing",
+        "goal",
+        "directed",
+        "interactions",
+        "withthe",
+        "ape",
+        "prompt",
+        "engineering",
+        "embrace",
+        "elegant"
+      ]
+    },
+    "06": {
+      "id": "06",
+      "filename": "06_Prompt_engineering_withthe_Atomic_Prompting_Framework.md",
+      "name": "Prompt engineering withthe Atomic Prompting Framework",
+      "acronym": "",
+      "description": "The framework's brilliance lies in its hierarchical approach, organizing prompts into organism, molecule, atomic, and parameters levels. Each layer adds depth, ensuring every aspect of the image is crafted to perfection. It's the key to unlocking hyper-realistic or fantastical imagery with precision",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Organism Level",
+        "Molecule Level",
+        "Atomic Level",
+        "Parameters Level",
+        "Detailed Control",
+        "High Customization",
+        "Versatility",
+        "Complexity",
+        "Time Consumption"
+      ],
+      "strengths": [
+        "Detailed Control",
+        "High Customization",
+        "Versatility"
+      ],
+      "weaknesses": [
+        "Complexity",
+        "Time Consumption"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "atomic",
+        "prompting",
+        "brilliance",
+        "lies",
+        "its",
+        "hierarchical",
+        "organizing"
+      ]
+    },
+    "07": {
+      "id": "07",
+      "filename": "07_Mastering_AI_Prompt_Engineering_withThe_BAB_Framework.md",
+      "name": "Mastering AI Prompt Engineering withThe BAB Framework",
+      "acronym": "",
+      "description": "Originally designed as a copywriting formula, the BAB Framework (Before, After, Bridge) has been successfully adapted for AI prompt engineering. Like PAS (Pain, Agitate, Solution) and AIDA (Attention, Interest, Desire, Action), BAB was created to structure persuasive text but has found new life in g",
+      "domains": [
+        "creative",
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Bridge",
+        "Bridge",
+        "OpenAI's GPT-4",
+        "Google's Bard",
+        "Anthropic's Claude",
+        "Juuzt AI's proprietary tools",
+        "Meta’s Llama 2",
+        "Storytelling",
+        "Simplicity",
+        "Versatility"
+      ],
+      "strengths": [
+        "Storytelling",
+        "Simplicity",
+        "Versatility"
+      ],
+      "weaknesses": [
+        "Limited Detail",
+        "Dependent on Context"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 20,
+      "keywords": [
+        "mastering",
+        "prompt",
+        "engineering",
+        "withthe",
+        "bab",
+        "originally",
+        "designed",
+        "copywriting",
+        "formula",
+        "bridge"
+      ]
+    },
+    "08": {
+      "id": "08",
+      "filename": "08_Master_Creative_Problem-Solving_withThe_BLOG_Framework_for_ChatGPT.md",
+      "name": "Master Creative Problem-Solving withThe BLOG Framework for ChatGPT",
+      "acronym": "",
+      "description": "The BLOG Framework is a structured tool designed to revolutionize your content creation process. By leveraging Background, Logic, Outline, and Goal, it provides clarity, coherence, and purpose, ensuring that your articles captivate readers while remaining SEO-friendly. When paired with ChatGPT, the ",
+      "domains": [
+        "creative"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Background",
+        "Logic",
+        "Outline",
+        "Goal",
+        "Background",
+        "Logic",
+        "Outline",
+        "Goal",
+        "Core Benefits of BLOG",
+        "Clarity"
+      ],
+      "strengths": [
+        "Structured",
+        "Effective",
+        "Flexible"
+      ],
+      "weaknesses": [
+        "Dependence",
+        "Time-Intensive",
+        "ChatGPT-4o",
+        "Claude Sonnet 3.5",
+        "Google Gemini"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 17,
+      "keywords": [
+        "master",
+        "creative",
+        "problem",
+        "solving",
+        "withthe",
+        "blog",
+        "chatgpt",
+        "structured",
+        "tool",
+        "designed"
+      ]
+    },
+    "09": {
+      "id": "09",
+      "filename": "09_Navigating_complex_scenarios_withCARPARSTAR_Frameworks.md",
+      "name": "Navigating complex scenarios withCAR/PAR/STAR Frameworks",
+      "acronym": "",
+      "description": "Embark on a journey through the nuanced realms of CAR (Challenge, Action, Result), PAR (Problem, Action, Result), and STAR (Situation, Task, Action, Result) Frameworks. These methodologies serve as invaluable guides for structuring thoughts and communications, particularly in scenarios that demand a",
+      "domains": [
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving"
+      ],
+      "components": [
+        "Challenge/Problem/Situation",
+        "Action",
+        "Result",
+        "Structured Approach",
+        "Emphasizes Action and Outcome",
+        "Versatile Application",
+        "Can Be Restrictive",
+        "Requires Detailed Preparation"
+      ],
+      "strengths": [
+        "Structured Approach",
+        "Emphasizes Action and Outcome",
+        "Versatile Application"
+      ],
+      "weaknesses": [
+        "Can Be Restrictive",
+        "Requires Detailed Preparation"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "navigating",
+        "complex",
+        "scenarios",
+        "withcar",
+        "par",
+        "star",
+        "frameworks",
+        "embark",
+        "journey",
+        "nuanced"
+      ]
+    },
+    "10": {
+      "id": "10",
+      "filename": "10_Advancing_AI_Prompt_Engineering_withthe_CARE_Framework.md",
+      "name": "Advancing AI Prompt Engineering withthe CARE Framework",
+      "acronym": "",
+      "description": "The CARE Framework represents a pivotal advancement in AI Prompt Engineering, emphasizing Context, Action, Result, and Example. This structured approach ensures the development of prompts that are not only comprehensive and targeted but also grounded in practical outcomes and illustrative examples. ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Context",
+        "Action",
+        "Result",
+        "Example",
+        "Enhanced Clarity and Focus",
+        "Outcome-Oriented",
+        "Rich Contextualization",
+        "Increased Preparation Time",
+        "Potential for Over-Specification"
+      ],
+      "strengths": [
+        "Enhanced Clarity and Focus",
+        "Outcome-Oriented",
+        "Rich Contextualization"
+      ],
+      "weaknesses": [
+        "Increased Preparation Time",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [
+        "## \n\nOptimal use cases for\n\nthe CARE Framework\n\nIdeal for scenarios requiring comprehensive analysis, strategic planning, problem-solving, and educati",
+        "CARE Framework excels in applications where detailed guidance, practical outcomes, and concrete examples can significantly enhance the effectiveness a"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "advancing",
+        "prompt",
+        "engineering",
+        "withthe",
+        "care",
+        "represents",
+        "pivotal",
+        "advancement",
+        "emphasizing",
+        "context"
+      ]
+    },
+    "11": {
+      "id": "11",
+      "filename": "11_Prompt_engineering_withthe_Chain_of_Destiny_Framework.md",
+      "name": "Prompt engineering withthe Chain of Destiny Framework",
+      "acronym": "",
+      "description": "Step into the future of iterative improvement and refinement with the Chain of Destiny Framework, an innovative approach designed to elevate the quality of AI-generated content through successive iterations. This framework is a testament to the power of evolution, enabling users to refine and perfec",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Initial Prompt",
+        "Iteration",
+        "Feedback",
+        "Refinement",
+        "Continuous Improvement",
+        "Customized Feedback",
+        "Versatility",
+        "Time-Intensive",
+        "Depends on Quality Feedback"
+      ],
+      "strengths": [
+        "Continuous Improvement",
+        "Customized Feedback",
+        "Versatility"
+      ],
+      "weaknesses": [
+        "Time-Intensive",
+        "Depends on Quality Feedback"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "chain",
+        "destiny",
+        "step",
+        "future",
+        "iterative",
+        "improvement",
+        "refinement"
+      ]
+    },
+    "12": {
+      "id": "12",
+      "filename": "12_Prompt_engineering_withthe_Chain_of_Thought_Framework.md",
+      "name": "Prompt engineering withthe Chain of Thought Framework",
+      "acronym": "",
+      "description": "The essence of the Chain of Thought Framework lies in its ability to guide AI models through a logical sequence of thoughts, mimicking human problem-solving techniques. It's particularly adept at tackling analytical challenges that require detailed exploration and explanation, making it a powerful t",
+      "domains": [
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving"
+      ],
+      "components": [
+        "Introduction",
+        "Breakdown",
+        "Logical Progression",
+        "Conclusion",
+        "Enhances AI's Reasoning",
+        "Promotes Depth and Clarity",
+        "Adaptable to Various Scenarios",
+        "Requires Precise Prompting",
+        "May Be Time-Consuming"
+      ],
+      "strengths": [
+        "Enhances AI's Reasoning",
+        "Promotes Depth and Clarity",
+        "Adaptable to Various Scenarios"
+      ],
+      "weaknesses": [
+        "Requires Precise Prompting",
+        "May Be Time-Consuming"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "chain",
+        "thought",
+        "essence",
+        "lies",
+        "its",
+        "ability",
+        "guide"
+      ]
+    },
+    "13": {
+      "id": "13",
+      "filename": "13_Streamlining_problem-solving_withthe_Challenge-Solution-Benefit_Framework.md",
+      "name": "Streamlining problem-solving withthe Challenge-Solution-Benefit Framework",
+      "acronym": "",
+      "description": "Introducing the Challenge-Solution-Benefit Framework, a structured approach designed to articulate and address problems effectively by highlighting the challenges faced, the solutions implemented, and the benefits realized. This framework is an essential tool for strategic planning, project manageme",
+      "domains": [
+        "business",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving"
+      ],
+      "components": [
+        "Identify the Challenge",
+        "Implement the Solution",
+        "Highlight the Benefit",
+        "Clear Structure",
+        "Effective Communication",
+        "Versatile Application",
+        "May Oversimplify",
+        "Assumes Direct Causality"
+      ],
+      "strengths": [
+        "Clear Structure",
+        "Effective Communication",
+        "Versatile Application"
+      ],
+      "weaknesses": [
+        "May Oversimplify",
+        "Assumes Direct Causality"
+      ],
+      "optimal_for": [
+        "It's particularly useful for pitching ideas, justifying investments, and reporting on outcomes"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "streamlining",
+        "problem",
+        "solving",
+        "withthe",
+        "challenge",
+        "solution",
+        "benefit",
+        "introducing",
+        "structured",
+        "designed"
+      ]
+    },
+    "14": {
+      "id": "14",
+      "filename": "14_Master_the_Art_of_AI_Prompting_withThe_CIDI_Framework.md",
+      "name": "Master the Art of AI Prompting withThe CIDI Framework",
+      "acronym": "",
+      "description": "The CIDI Framework model revolutionizes the way you interact with AI by providing a clear, structured approach to crafting prompts. Designed around four key components—Context, Instructions, Details, and Input—it ensures precision, relevance, and adaptability, allowing you to achieve your goals with",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Context",
+        "Instructions",
+        "Details",
+        "Input",
+        "Context",
+        "Instructions",
+        "Details",
+        "Input",
+        "OpenAI's GPT-4",
+        "Google's Bard"
+      ],
+      "strengths": [
+        "Streamlined Precision",
+        "Broad Applicability",
+        "User-Centric Design"
+      ],
+      "weaknesses": [
+        "Initial Learning Curve",
+        "Requires Input Preparation",
+        "Project Management",
+        "Content Creation",
+        "Customer Support"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 0,
+      "keywords": [
+        "master",
+        "art",
+        "prompting",
+        "withthe",
+        "cidi",
+        "revolutionizes",
+        "you",
+        "interact",
+        "providing",
+        "clear"
+      ]
+    },
+    "15": {
+      "id": "15",
+      "filename": "15_Streamlining_AI_prompt_development_withthe_COAST_Framework_for_Prompt_Engineering.md",
+      "name": "Streamlining AI prompt development withthe COAST Framework for Prompt Engineering",
+      "acronym": "",
+      "description": "The COAST Framework introduces a comprehensive method for enhancing AI Prompt Engineering, organizing the development process through five key elements: Context, Objective, Actions, Scenario, and Task. This framework ensures that prompts are not only well-structured but also deeply aligned with spec",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Context",
+        "Objective",
+        "Actions",
+        "Scenario",
+        "Task",
+        "Comprehensive Structure",
+        "Enhanced Clarity",
+        "Adaptability",
+        "Complexity in Design",
+        "May Require Iteration"
+      ],
+      "strengths": [
+        "Comprehensive Structure",
+        "Enhanced Clarity",
+        "Adaptability"
+      ],
+      "weaknesses": [
+        "Complexity in Design",
+        "May Require Iteration"
+      ],
+      "optimal_for": [
+        "COAST Framework excels in applications where clear, structured, and goal-oriented AI responses are paramount"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "streamlining",
+        "prompt",
+        "development",
+        "withthe",
+        "coast",
+        "engineering",
+        "introduces",
+        "comprehensive",
+        "enhancing",
+        "organizing"
+      ]
+    },
+    "16": {
+      "id": "16",
+      "filename": "16_Mastering_AI_Prompt_Engineering_withThe_CRISPE_Framework.md",
+      "name": "Mastering AI Prompt Engineering withThe CRISPE Framework",
+      "acronym": "",
+      "description": "The CRISPE Framework model (Clarity, Relevance, Iteration, Specificity, Parameters, Examples) is a groundbreaking methodology for designing AI prompts that achieve maximum precision and relevance. By blending clarity with iterative refinement, CRISPE ensures that every interaction with large languag",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Clarity",
+        "Relevance",
+        "Iteration",
+        "Specificity",
+        "Practicality",
+        "Examples",
+        "Clarity",
+        "Relevance",
+        "Iteration",
+        "Specificity"
+      ],
+      "strengths": [
+        "Comprehensive",
+        "Flexible",
+        "Precise"
+      ],
+      "weaknesses": [
+        "Time-Intensive",
+        "Over-Specificity"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 19,
+      "keywords": [
+        "mastering",
+        "prompt",
+        "engineering",
+        "withthe",
+        "crispe",
+        "clarity",
+        "relevance",
+        "iteration",
+        "specificity",
+        "parameters"
+      ]
+    },
+    "17": {
+      "id": "17",
+      "filename": "17_Mastering_information_gathering_withthe_Elicitation_Framework.md",
+      "name": "Mastering information gathering withthe Elicitation Framework",
+      "acronym": "",
+      "description": "By focusing on the nuances of elicitation, this framework ensures that interactions with AI are not just conversations but journeys to uncover the most relevant and insightful information possible.",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Clarify Intent",
+        "Structure Questions",
+        "Contextualize",
+        "Specify Desired Outcome",
+        "Follow-Up Strategically",
+        "Precision in Responses",
+        "Deep Insights",
+        "Adaptability",
+        "Requires Detailed Planning",
+        "Learning Curve"
+      ],
+      "strengths": [
+        "Precision in Responses",
+        "Deep Insights",
+        "Adaptability"
+      ],
+      "weaknesses": [
+        "Requires Detailed Planning",
+        "Learning Curve"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "mastering",
+        "information",
+        "gathering",
+        "withthe",
+        "elicitation",
+        "focusing",
+        "nuances",
+        "ensures",
+        "interactions",
+        "conversations"
+      ]
+    },
+    "18": {
+      "id": "18",
+      "filename": "18_Optimizing_AI_Prompt_Engineering_withthe_ERA_Framework.md",
+      "name": "Optimizing AI Prompt Engineering withthe ERA Framework",
+      "acronym": "",
+      "description": "The ERA Framework introduces a streamlined approach to AI Prompt Engineering, focusing on Expectation, Role, and Action. This methodology enhances the effectiveness of prompts by clearly defining the expected outcome (Expectation), the AI's role in achieving this outcome (Role), and the actions the ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Expectation",
+        "Role",
+        "Action",
+        "Clear Direction",
+        "Enhanced Focus",
+        "Structured Approach",
+        "May Require Iteration",
+        "Limitations on Creativity"
+      ],
+      "strengths": [
+        "Clear Direction",
+        "Enhanced Focus",
+        "Structured Approach"
+      ],
+      "weaknesses": [
+        "May Require Iteration",
+        "Limitations on Creativity"
+      ],
+      "optimal_for": [
+        "## \n\nOptimal use cases for\n\nthe ERA Framework\n\nEspecially suited for tasks requiring detailed guidance and specific outcomes, such as content creation",
+        "ERA Framework is invaluable for users seeking to leverage AI capabilities for targeted, outcome-oriented projects"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "optimizing",
+        "prompt",
+        "engineering",
+        "withthe",
+        "era",
+        "introduces",
+        "streamlined",
+        "focusing",
+        "expectation",
+        "role"
+      ]
+    },
+    "19": {
+      "id": "19",
+      "filename": "19_Simplifying_complex_concepts_withthe_Explain_Like_Im_5_ELI5_Framework.md",
+      "name": "Simplifying complex concepts withthe 'Explain Like I'm 5' (ELI5) Framework",
+      "acronym": "",
+      "description": "Embrace the 'Explain Like I'm 5' (ELI5) Framework, a revolutionary approach to breaking down complex ideas into simple, digestible explanations. Inspired by the desire to make knowledge accessible to all ages, this framework champions clarity, simplicity, and the art of explanation in its purest for",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "brainstorming"
+      ],
+      "components": [
+        "Emphasize Simplicity",
+        "Avoid Jargon",
+        "Use Relatable Examples",
+        "Be Concise",
+        "Universal Accessibility",
+        "Enhances Understanding",
+        "Promotes Engagement",
+        "Risk of Oversimplification",
+        "May Not Suit All Topics"
+      ],
+      "strengths": [
+        "Universal Accessibility",
+        "Enhances Understanding",
+        "Promotes Engagement"
+      ],
+      "weaknesses": [
+        "Risk of Oversimplification",
+        "May Not Suit All Topics"
+      ],
+      "optimal_for": [
+        "It's a go-to strategy for making learning enjoyable and accessible"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "simplifying",
+        "complex",
+        "concepts",
+        "withthe",
+        "explain",
+        "like",
+        "embrace",
+        "revolutionary",
+        "breaking",
+        "down"
+      ]
+    },
+    "20": {
+      "id": "20",
+      "filename": "20_Master_AI_Prompt_Engineering_withthe_Few-shot_Prompt_Framework.md",
+      "name": "Master AI Prompt Engineering withthe Few-shot Prompt Framework",
+      "acronym": "",
+      "description": "Few-shot prompting is a pivotal technique in AI prompt engineering, enabling models to produce contextually relevant and accurate outputs by learning from a limited set of examples. Unlike zero-shot prompting, which relies on the model's pre-trained knowledge to generate responses without context, f",
+      "domains": [
+        "education",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Instruction",
+        "Demonstrations / Shots",
+        "Query",
+        "Accuracy",
+        "Flexibility",
+        "Reusability",
+        "Example Quality Dependency",
+        "Task Complexity"
+      ],
+      "strengths": [
+        "Accuracy",
+        "Flexibility",
+        "Reusability"
+      ],
+      "weaknesses": [],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 0,
+      "keywords": [
+        "master",
+        "prompt",
+        "engineering",
+        "withthe",
+        "shot",
+        "prompting",
+        "pivotal",
+        "enabling",
+        "models",
+        "produce"
+      ]
+    },
+    "21": {
+      "id": "21",
+      "filename": "21_Exploring_narratives_withthe_Five_Ws_and_One_H_Framework.md",
+      "name": "Exploring narratives withthe Five Ws and One H Framework",
+      "acronym": "",
+      "description": "Embark on a journey through the timeless and universally applicable Five Ws and One H framework, a tool that transforms the complexity of communication with AI into a streamlined and effective dialogue. This framework, rooted in the fundamental questions of Who, What, When, Where, Why, and How, offe",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Who",
+        "What",
+        "Comprehensive Coverage",
+        "Contextual Richness",
+        "Flexibility",
+        "Can Be Time-Consuming",
+        "Risk of Over-Specification"
+      ],
+      "strengths": [
+        "Comprehensive Coverage",
+        "Contextual Richness",
+        "Flexibility"
+      ],
+      "weaknesses": [
+        "Can Be Time-Consuming",
+        "Risk of Over-Specification"
+      ],
+      "optimal_for": [
+        "Its structured yet flexible approach ensures that AI interactions are thorough, relevant, and tailored to the specific needs and goals of the user"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "exploring",
+        "narratives",
+        "withthe",
+        "five",
+        "one",
+        "embark",
+        "journey",
+        "timeless",
+        "universally",
+        "applicable"
+      ]
+    },
+    "22": {
+      "id": "22",
+      "filename": "22_Prompt_engineering_withthe_FOCUS_Framework.md",
+      "name": "Prompt engineering withthe FOCUS Framework",
+      "acronym": "",
+      "description": "This framework is a true gem among the strategies for communicating with AI models! Imagine standing on the shoulders of digital giants, equipped with a magical key that unlocks the door to the wondrous world of AI. This key, dear reader, is none other than the FOCUS Framework, a masterpiece of prec",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Function",
+        "Objective",
+        "Context",
+        "Utility",
+        "Specifications",
+        "Goal-Oriented Prompts",
+        "Enhanced Contextual Understanding",
+        "Clear Expectations",
+        "Requires Detailed Input",
+        "Risk of Over-Specification"
+      ],
+      "strengths": [
+        "Goal-Oriented Prompts",
+        "Enhanced Contextual Understanding",
+        "Clear Expectations"
+      ],
+      "weaknesses": [
+        "Requires Detailed Input",
+        "Risk of Over-Specification"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "focus",
+        "true",
+        "gem",
+        "among",
+        "strategies",
+        "communicating",
+        "models"
+      ]
+    },
+    "23": {
+      "id": "23",
+      "filename": "23_Elevating_dialogue_withThe_Focused_Conversation_Method_ORID_for_AI_Prompt_Engineering.md",
+      "name": "Elevating dialogue withThe Focused Conversation Method (ORID) for AI Prompt Engineering",
+      "acronym": "",
+      "description": "The Focused Conversation Method (ORID) for AI Prompt Engineering Introducing The Focused Conversation Method (ORID), ingeniously adapted for AI Prompt Engineering, to facilitate structured, meaningful interactions. This method organizes conversation around four key stages—Objective, Reflective, Inte",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "analysis"
+      ],
+      "components": [
+        "Objective",
+        "Reflective",
+        "Interpretive",
+        "Decisional",
+        "Structured Exploration",
+        "Enhances Relevance",
+        "Encourages Critical Thinking",
+        "Complex Prompt Design",
+        "May Limit Spontaneity"
+      ],
+      "strengths": [
+        "Structured Exploration",
+        "Enhances Relevance",
+        "Encourages Critical Thinking"
+      ],
+      "weaknesses": [
+        "Complex Prompt Design",
+        "May Limit Spontaneity"
+      ],
+      "optimal_for": [
+        "It's an effective tool for researchers, educators, strategists, and content creators seeking to leverage AI for in-depth exploration and solution gene"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "elevating",
+        "dialogue",
+        "withthe",
+        "focused",
+        "conversation",
+        "orid",
+        "prompt",
+        "engineering",
+        "introducing",
+        "ingeniously"
+      ]
+    },
+    "24": {
+      "id": "24",
+      "filename": "24_Optimizing_goal-oriented_processes_withthe_GOPA_Framework.md",
+      "name": "Optimizing goal-oriented processes withthe GOPA Framework",
+      "acronym": "",
+      "description": "Introducing the GOPA Framework, an innovative approach designed to streamline and enhance the efficiency of goal-oriented processes. Standing for Goals, Options, Pros/Cons, and Actions, the GOPA Framework provides a structured methodology for setting clear objectives, exploring various strategies, e",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "analysis"
+      ],
+      "components": [
+        "Goals",
+        "Options",
+        "Pros/Cons",
+        "Actions",
+        "Structured Decision-Making",
+        "Comprehensive Analysis",
+        "Action-Oriented",
+        "Time-Intensive",
+        "Potential for Overanalysis"
+      ],
+      "strengths": [
+        "Structured Decision-Making",
+        "Comprehensive Analysis",
+        "Action-Oriented"
+      ],
+      "weaknesses": [
+        "Time-Intensive",
+        "Potential for Overanalysis"
+      ],
+      "optimal_for": [
+        "It's particularly useful for teams and organizations looking to align on objectives and execute strategies with precision and accountability"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "optimizing",
+        "goal",
+        "oriented",
+        "processes",
+        "withthe",
+        "gopa",
+        "introducing",
+        "innovative",
+        "designed",
+        "streamline"
+      ]
+    },
+    "25": {
+      "id": "25",
+      "filename": "25_Enhancing_AI_Prompt_Engineering_withthe_GRADE_Framework.md",
+      "name": "Enhancing AI Prompt Engineering withthe GRADE Framework",
+      "acronym": "",
+      "description": "The GRADE Framework offers a systematic approach to AI Prompt Engineering, incorporating five key elements: Goal, Request, Action, Details, and Example. This structure facilitates the crafting of prompts that are clear, purposeful, and effectively guide AI towards producing targeted and relevant res",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Goal",
+        "Request",
+        "Action",
+        "Details",
+        "Example",
+        "Goal-Oriented Design",
+        "Comprehensive Structure",
+        "Contextual Clarity",
+        "Initial Complexity",
+        "Limited Flexibility"
+      ],
+      "strengths": [
+        "Goal-Oriented Design",
+        "Comprehensive Structure",
+        "Contextual Clarity"
+      ],
+      "weaknesses": [
+        "Initial Complexity",
+        "Limited Flexibility"
+      ],
+      "optimal_for": [
+        "Its structured approach ensures that AI tasks are executed with a high degree of accuracy and relevance"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "enhancing",
+        "prompt",
+        "engineering",
+        "withthe",
+        "grade",
+        "offers",
+        "systematic",
+        "incorporating",
+        "five",
+        "key"
+      ]
+    },
+    "26": {
+      "id": "26",
+      "filename": "26_Structuring_content_withthe_Hamburger_Model_for_AI_Prompt_Engineering.md",
+      "name": "Structuring content withthe Hamburger Model for AI Prompt Engineering",
+      "acronym": "",
+      "description": "Delve into the Hamburger Model, an intuitive framework adapted for AI Prompt Engineering, designed to organize and present information in a structured, coherent manner. This model, mirroring the layers of a hamburger, helps in constructing prompts that lead AI to generate responses with a clear intr",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Introduction",
+        "Body",
+        "Conclusion",
+        "Clear Structure",
+        "Comprehensive Exploration",
+        "Engaging Content",
+        "Potential for Formulaic Responses",
+        "Limited Flexibility"
+      ],
+      "strengths": [
+        "Clear Structure",
+        "Comprehensive Exploration",
+        "Engaging Content"
+      ],
+      "weaknesses": [
+        "Potential for Formulaic Responses",
+        "Limited Flexibility"
+      ],
+      "optimal_for": [
+        "It's an excellent tool for ensuring that AI-generated texts meet high standards of clarity and engagement"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "structuring",
+        "content",
+        "withthe",
+        "hamburger",
+        "prompt",
+        "engineering",
+        "delve",
+        "intuitive",
+        "adapted",
+        "designed"
+      ]
+    },
+    "27": {
+      "id": "27",
+      "filename": "27_Enhancing_comprehension_withthe_Help_me_Understand_Framework.md",
+      "name": "Enhancing comprehension withthe 'Help me Understand' Framework",
+      "acronym": "",
+      "description": "Explore the 'Help me Understand' Framework, a dedicated approach designed to deepen comprehension and foster clear communication. This framework is centered around the pursuit of understanding complex concepts, ideas, or processes by inviting detailed explanations and insights. It encourages the exp",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "brainstorming"
+      ],
+      "components": [
+        "Seek Clarity",
+        "Break Down Complexities",
+        "Use Analogies and Examples",
+        "Invite Questions",
+        "Promotes Clear Communication",
+        "Encourages Engagement",
+        "Adaptable to Various Topics",
+        "Dependent on Explainer's Skill",
+        "May Require Multiple Iterations"
+      ],
+      "strengths": [
+        "Promotes Clear Communication",
+        "Encourages Engagement",
+        "Adaptable to Various Topics"
+      ],
+      "weaknesses": [
+        "Dependent on Explainer's Skill",
+        "May Require Multiple Iterations"
+      ],
+      "optimal_for": [
+        "It's a valuable tool for teachers, trainers, consultants, and anyone dedicated to facilitating understanding"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "enhancing",
+        "comprehension",
+        "withthe",
+        "help",
+        "understand",
+        "explore",
+        "dedicated",
+        "designed",
+        "deepen",
+        "foster"
+      ]
+    },
+    "28": {
+      "id": "28",
+      "filename": "28_Fostering_innovation_withthe_How_Might_We_HMW_Framework.md",
+      "name": "Fostering innovation withthe 'How Might We' (HMW) Framework",
+      "acronym": "",
+      "description": "Embark on a journey of creative exploration with the 'How Might We' (HMW) Framework, a powerful tool designed to stimulate innovation, ideation, and collaborative problem-solving. This approach transforms challenges into opportunities for design and innovation, encouraging teams to think openly and ",
+      "domains": [
+        "creative",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Open-Ended Inquiry",
+        "Promote Collaboration",
+        "Encourage Innovative Thinking",
+        "Facilitate Solution Discovery",
+        "Enhances Creative Problem-Solving",
+        "Improves Team Collaboration",
+        "Flexible and Adaptable",
+        "May Require Narrowing Down",
+        "Needs Structured Follow-Up"
+      ],
+      "strengths": [
+        "Enhances Creative Problem-Solving",
+        "Improves Team Collaboration",
+        "Flexible and Adaptable"
+      ],
+      "weaknesses": [
+        "May Require Narrowing Down",
+        "Needs Structured Follow-Up"
+      ],
+      "optimal_for": [
+        "It's a versatile tool that can help teams tackle product development, user experience challenges, service improvements, and more"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "fostering",
+        "innovation",
+        "withthe",
+        "hmw",
+        "embark",
+        "journey",
+        "creative",
+        "exploration",
+        "powerful",
+        "tool"
+      ]
+    },
+    "29": {
+      "id": "29",
+      "filename": "29_Unleashing_creativity_withthe_Imagine_Framework.md",
+      "name": "Unleashing creativity withthe 'Imagine' Framework",
+      "acronym": "",
+      "description": "Step into the realm of boundless creativity and insight with the 'Imagine' Framework, a prompt engineering tool designed to unlock the full potential of AI interactions. This framework is a beacon for those who seek to explore possibilities, hypothesize outcomes, and envision scenarios beyond the co",
+      "domains": [
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "analysis"
+      ],
+      "components": [
+        "Inspire Creativity",
+        "Hypothesize Scenarios",
+        "Envision Solutions",
+        "Cultivate Empathy",
+        "Explore Consequences",
+        "Encourages Broad Thinking",
+        "Enhances Creativity",
+        "Supports Speculative Exploration",
+        "May Lack Specificity",
+        "Requires Further Analysis"
+      ],
+      "strengths": [
+        "Encourages Broad Thinking",
+        "Enhances Creativity",
+        "Supports Speculative Exploration"
+      ],
+      "weaknesses": [
+        "May Lack Specificity",
+        "Requires Further Analysis"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "unleashing",
+        "creativity",
+        "withthe",
+        "imagine",
+        "step",
+        "realm",
+        "boundless",
+        "insight",
+        "prompt",
+        "engineering"
+      ]
+    },
+    "30": {
+      "id": "30",
+      "filename": "30_Enhancing_reflection_in_AI_interactions_withthe_PAUSE_Framework_for_Prompt_Engineering.md",
+      "name": "Enhancing reflection in AI interactions withthe PAUSE Framework for Prompt Engineering",
+      "acronym": "",
+      "description": "Introducing the PAUSE Framework, a novel approach in AI Prompt Engineering designed to incorporate moments of reflection, critical thinking, and strategic pauses into the process of generating and responding to prompts. This framework, through its focus on Pause, Assess, Understand, Strategize, and ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "analysis"
+      ],
+      "components": [
+        "Pause",
+        "Assess",
+        "Understand",
+        "Strategize",
+        "Execute",
+        "Promotes Deeper Analysis",
+        "Enhances Decision-Making",
+        "Improves Response Quality",
+        "May Increase Response Time",
+        "Requires Careful Prompt Design"
+      ],
+      "strengths": [
+        "Promotes Deeper Analysis",
+        "Enhances Decision-Making",
+        "Improves Response Quality"
+      ],
+      "weaknesses": [
+        "May Increase Response Time",
+        "Requires Careful Prompt Design"
+      ],
+      "optimal_for": [
+        "It's a valuable tool for enhancing the quality and depth of AI-generated solutions and analyses"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "enhancing",
+        "reflection",
+        "interactions",
+        "withthe",
+        "pause",
+        "prompt",
+        "engineering",
+        "introducing",
+        "novel",
+        "designed"
+      ]
+    },
+    "31": {
+      "id": "31",
+      "filename": "31_Deepening_analysis_withthe_PEE_Framework_for_AI_Prompt_Engineering.md",
+      "name": "Deepening analysis withthe PEE Framework for AI Prompt Engineering",
+      "acronym": "",
+      "description": "Introducing the PEE Framework, tailored for AI Prompt Engineering, a methodological approach designed to enrich the development and structuring of AI prompts. Standing for Point, Evidence, and Explanation, the PEE Framework guides users through the process of constructing prompts that encourage deta",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation",
+        "analysis"
+      ],
+      "components": [
+        "Point",
+        "Evidence",
+        "Explanation",
+        "Promotes Depth of Analysis",
+        "Enhances Content Quality",
+        "Improves User Engagement",
+        "Requires Detailed Input",
+        "May Limit Creativity"
+      ],
+      "strengths": [
+        "Promotes Depth of Analysis",
+        "Enhances Content Quality",
+        "Improves User Engagement"
+      ],
+      "weaknesses": [
+        "Requires Detailed Input",
+        "May Limit Creativity"
+      ],
+      "optimal_for": [
+        "It's a valuable tool for educators, analysts, and content strategists aiming to elevate the quality and depth of AI-generated content"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "deepening",
+        "analysis",
+        "withthe",
+        "pee",
+        "prompt",
+        "engineering",
+        "introducing",
+        "tailored",
+        "methodological",
+        "designed"
+      ]
+    },
+    "32": {
+      "id": "32",
+      "filename": "32_Harnessing_Generative_AI_withthe_PROMPT_Framework.md",
+      "name": "Harnessing Generative AI withthe PROMPT Framework",
+      "acronym": "",
+      "description": "The framework transforms complex AI dialogues into structured, meaningful exchanges, ensuring each element—from defining the AI's role to setting the communication tone—plays a crucial part in achieving clarity and effectiveness. Understanding the PROMPT Framework",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Persona",
+        "Request",
+        "Output Type",
+        "Modifier",
+        "Provide Example",
+        "Tone",
+        "Clarity and Precision",
+        "Efficiency",
+        "Personalization",
+        "Preparation"
+      ],
+      "strengths": [
+        "Clarity and Precision",
+        "Efficiency",
+        "Personalization"
+      ],
+      "weaknesses": [
+        "Preparation",
+        "Focus"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 0,
+      "keywords": [
+        "harnessing",
+        "generative",
+        "withthe",
+        "prompt",
+        "transforms",
+        "complex",
+        "dialogues",
+        "structured",
+        "meaningful",
+        "exchanges"
+      ]
+    },
+    "33": {
+      "id": "33",
+      "filename": "33_Prompt_engineering_withthe_RACE_Framework.md",
+      "name": "Prompt engineering withthe RACE Framework",
+      "acronym": "",
+      "description": "The RACE Framework stands as a beacon for those navigating the complex seas of AI communication, offering a structured path to achieving impactful results. Picture yourself harnessing the power of this framework, your compass in the vast ocean of AI possibilities, guiding you to the shores of succes",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Reach",
+        "Act",
+        "Convert",
+        "Engage",
+        "Comprehensive Engagement",
+        "Strategic Clarity",
+        "Measurable Outcomes",
+        "Complex Planning Required",
+        "Potential for Overemphasis on Conversion"
+      ],
+      "strengths": [
+        "Comprehensive Engagement",
+        "Strategic Clarity",
+        "Measurable Outcomes"
+      ],
+      "weaknesses": [
+        "Complex Planning Required",
+        "Potential for Overemphasis on Conversion"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "race",
+        "stands",
+        "beacon",
+        "navigating",
+        "complex",
+        "seas",
+        "communication"
+      ]
+    },
+    "34": {
+      "id": "34",
+      "filename": "34_Mastering_AI_Prompt_Engineering_withThe_RAFEC_Framework.md",
+      "name": "Mastering AI Prompt Engineering withThe RAFEC Framework",
+      "acronym": "",
+      "description": "The RAFEC Framework (Rephrase, Append, Focus, Examples, Clarify) represents a cutting-edge methodology in AI prompt engineering. Designed to maximize the effectiveness of interactions with large language models (LLMs), RAFEC provides a structured, dynamic approach to crafting precise prompts. By int",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Rephrase",
+        "Append",
+        "Contextualize",
+        "Examples",
+        "Follow-Up",
+        "Rephrase",
+        "Append",
+        "Focus",
+        "Examples",
+        "Clarify"
+      ],
+      "strengths": [
+        "Flexibility",
+        "Structure",
+        "Iterative Refinement"
+      ],
+      "weaknesses": [
+        "Learning Curve",
+        "Time-Intensive"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 20,
+      "keywords": [
+        "mastering",
+        "prompt",
+        "engineering",
+        "withthe",
+        "rafec",
+        "rephrase",
+        "append",
+        "focus",
+        "examples",
+        "clarify"
+      ]
+    },
+    "35": {
+      "id": "35",
+      "filename": "35_Streamlining_AI_Prompt_Engineering_withthe_RASCEF_Framework.md",
+      "name": "Streamlining AI Prompt Engineering withthe RASCEF Framework",
+      "acronym": "",
+      "description": "The RASCEF Framework offers a comprehensive approach to AI Prompt Engineering, breaking down the process into six distinct components: Role, Action, Steps, Context, Examples, and Format. This framework ensures a systematic and detailed development of AI prompts, facilitating precise and context-awar",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Role",
+        "Action",
+        "Steps",
+        "Context",
+        "Examples",
+        "Format",
+        "Detailed Guidance",
+        "Adaptable Approach",
+        "Targeted Responses",
+        "Increased Preparation Time"
+      ],
+      "strengths": [
+        "Detailed Guidance",
+        "Adaptable Approach",
+        "Targeted Responses"
+      ],
+      "weaknesses": [
+        "Increased Preparation Time",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [
+        "## \n\nOptimal use cases for\n\nthe RASCEF Framework\n\nIdeal for complex tasks requiring nuanced understanding or when a specific outcome is essential",
+        "RASCEF excels in educational content creation, strategic planning, creative storytelling, and detailed analysis projects"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "streamlining",
+        "prompt",
+        "engineering",
+        "withthe",
+        "rascef",
+        "offers",
+        "comprehensive",
+        "breaking",
+        "down",
+        "six"
+      ]
+    },
+    "36": {
+      "id": "36",
+      "filename": "36_Master_Content_Creation_withThe_RELIC_Framework_for_ChatGPT.md",
+      "name": "Master Content Creation withThe RELIC Framework for ChatGPT",
+      "acronym": "",
+      "description": "The RELIC Framework is a structured prompt engineering tool designed to optimize interactions with ChatGPT. By focusing on five essential components—Role, Emphasis, Limitation, Information, and Challenge—RELIC helps users craft clear, focused, and goal-oriented prompts. Whether you're creating conte",
+      "domains": [
+        "education",
+        "creative",
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Role",
+        "Emphasis",
+        "Limitation",
+        "Information",
+        "Challenge",
+        "Role",
+        "Emphasis",
+        "Limitation",
+        "Information",
+        "Challenge"
+      ],
+      "strengths": [
+        "Clear Structure",
+        "Goal-Oriented",
+        "Flexibility"
+      ],
+      "weaknesses": [
+        "Learning Curve",
+        "Time-Intensive",
+        "ChatGPT-4o and 4o1",
+        "Claude Sonnet 3.5",
+        "Google Gemini Pro"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 21,
+      "keywords": [
+        "master",
+        "content",
+        "creation",
+        "withthe",
+        "relic",
+        "chatgpt",
+        "structured",
+        "prompt",
+        "engineering",
+        "tool"
+      ]
+    },
+    "37": {
+      "id": "37",
+      "filename": "37_Prompt_engineering_withthe_RHODES_Framework.md",
+      "name": "Prompt engineering withthe RHODES Framework",
+      "acronym": "",
+      "description": "Embarking on the journey of precise and creative prompt crafting, the RHODES Framework emerges as a lighthouse guiding through the foggy seas of AI interactions. RHODES, an acronym for Role, Objective, Details, Examples, and Sense Check, offers a structured yet flexible approach to designing prompts",
+      "domains": [
+        "creative",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "brainstorming"
+      ],
+      "components": [
+        "Role",
+        "Objective",
+        "Details",
+        "Examples",
+        "Sense Check",
+        "Enhanced Creativity",
+        "Precision in Output",
+        "Flexibility",
+        "Requires Thorough Preparation",
+        "May Limit AI Exploration"
+      ],
+      "strengths": [
+        "Enhanced Creativity",
+        "Precision in Output",
+        "Flexibility"
+      ],
+      "weaknesses": [
+        "Requires Thorough Preparation",
+        "May Limit AI Exploration"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "rhodes",
+        "embarking",
+        "journey",
+        "precise",
+        "creative",
+        "crafting",
+        "emerges"
+      ]
+    },
+    "38": {
+      "id": "38",
+      "filename": "38_Optimize_Decisions_withThe_RICE_Framework_for_ChatGPT.md",
+      "name": "Optimize Decisions withThe RICE Framework for ChatGPT",
+      "acronym": "",
+      "description": "The RICE Framework is a powerful prioritization tool that brings clarity and precision to decision-making in AI prompt engineering. By evaluating options through four core components—Reach, Impact, Confidence, and Effort—this framework enables users to identify high-value opportunities with minimal ",
+      "domains": [
+        "creative",
+        "technical",
+        "decision"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "content_creation",
+        "analysis",
+        "brainstorming"
+      ],
+      "components": [
+        "Identify Opportunities",
+        "Streamline Prioritization",
+        "Optimize AI Interactions",
+        "Reach",
+        "Impact",
+        "Confidence",
+        "Effort",
+        "Key Advantages of RICE in AI",
+        "Data-Driven Decisions",
+        "Scalability"
+      ],
+      "strengths": [
+        "Quantitative Analysis",
+        "Improved Prioritization",
+        "Time-Saving"
+      ],
+      "weaknesses": [
+        "Requires Data",
+        "Effort Estimation",
+        "Limited Context",
+        "ChatGPT-4o and 4o1",
+        "Claude Sonnet 3.5"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 20,
+      "keywords": [
+        "optimize",
+        "decisions",
+        "withthe",
+        "rice",
+        "chatgpt",
+        "powerful",
+        "prioritization",
+        "tool",
+        "brings",
+        "clarity"
+      ]
+    },
+    "39": {
+      "id": "39",
+      "filename": "39_Elevating_AI_Prompt_Engineering_withthe_RISE_Framework.md",
+      "name": "Elevating AI Prompt Engineering withthe RISE Framework",
+      "acronym": "",
+      "description": "The RISE Framework revolutionizes AI Prompt Engineering by integrating four pivotal elements: Role, Input, Steps, and Expectation. This methodical approach enhances the clarity and direction of prompts, ensuring that AI interactions are not only targeted and relevant but also aligned with specific o",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Role",
+        "Input",
+        "Steps",
+        "Expectation",
+        "Structured Approach",
+        "Comprehensive Exploration",
+        "Goal-Oriented Outputs",
+        "Complexity in Prompt Design",
+        "Potential for Over-Specification"
+      ],
+      "strengths": [
+        "Structured Approach",
+        "Comprehensive Exploration",
+        "Goal-Oriented Outputs"
+      ],
+      "weaknesses": [
+        "Complexity in Prompt Design",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [
+        "## \n\nOptimal use cases for\n\nthe RISE Framework\n\nSuitable for a wide array of applications, including research analysis, content creation, strategic pl",
+        "RISE Framework excels in scenarios where detailed guidance and structured outcomes are pivotal for success"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "elevating",
+        "prompt",
+        "engineering",
+        "withthe",
+        "rise",
+        "revolutionizes",
+        "integrating",
+        "four",
+        "pivotal",
+        "elements"
+      ]
+    },
+    "40": {
+      "id": "40",
+      "filename": "40_AI_prompt_engineering_withThe_RISEN_Framework.md",
+      "name": "AI prompt engineering withThe RISEN Framework",
+      "acronym": "",
+      "description": "The RISEN framework model (**Role, Instructions, Steps, End Goal/Expectations, Narrowing/Novelty**) breaks down the process of crafting effective prompts into five essential elements. By integrating proven techniques into a structured approach, RISEN simplifies even complex tasks, empowering users t",
+      "domains": [
+        "creative",
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "brainstorming"
+      ],
+      "components": [
+        "Context-Rich Prompting",
+        "Iterative Refinement",
+        "Creativity Enhancement",
+        "Focus Optimization",
+        "Role",
+        "Instructions",
+        "Steps",
+        "End Goal / Expectations",
+        "Narrowing / Novelty",
+        "Advantages of RISEN over RISE"
+      ],
+      "strengths": [
+        "Structured Approach",
+        "Goal-Oriented",
+        "Adaptable"
+      ],
+      "weaknesses": [
+        "May Require Detailed Preparation",
+        "Potential for Over-Constriction",
+        "ChatGPT-4o and 4o1",
+        "Gemini Flash 1.5 and Pro 1.5",
+        "Claude Sonnet 3.5 and Haiku"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 21,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "risen",
+        "role",
+        "instructions",
+        "steps",
+        "end",
+        "goal",
+        "expectations"
+      ]
+    },
+    "41": {
+      "id": "41",
+      "filename": "41_Refining_AI_Prompt_Engineering_withthe_RODES_Framework.md",
+      "name": "Refining AI Prompt Engineering withthe RODES Framework",
+      "acronym": "",
+      "description": "The RODES Framework offers a nuanced approach to AI Prompt Engineering, focusing on five essential components: Role, Objective, Details, Examples, and Sense Check. This framework is designed to refine the development of AI prompts, ensuring they are both targeted and effective in achieving desired o",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Role",
+        "Objective",
+        "Details",
+        "Examples",
+        "Sense Check",
+        "Comprehensive Guidance",
+        "Contextual Relevance",
+        "Quality Assurance",
+        "Requires Detailed Planning",
+        "Potential for Rigidity"
+      ],
+      "strengths": [
+        "Comprehensive Guidance",
+        "Contextual Relevance",
+        "Quality Assurance"
+      ],
+      "weaknesses": [
+        "Requires Detailed Planning",
+        "Potential for Rigidity"
+      ],
+      "optimal_for": [
+        "Its structured approach ensures that AI-generated content meets precise standards and objectives"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "refining",
+        "prompt",
+        "engineering",
+        "withthe",
+        "rodes",
+        "offers",
+        "nuanced",
+        "focusing",
+        "five",
+        "essential"
+      ]
+    },
+    "42": {
+      "id": "42",
+      "filename": "42_Elevating_AI_Prompt_Engineering_withthe_ROSES_Framework.md",
+      "name": "Elevating AI Prompt Engineering withthe ROSES Framework",
+      "acronym": "",
+      "description": "The ROSES Framework introduces a nuanced approach to AI Prompt Engineering, structured around five key elements: Role, Objective, Scenario, Expected Solution, and Steps. This comprehensive framework is designed to guide the creation of prompts that clearly define the AI's role, set specific objectiv",
+      "domains": [
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation"
+      ],
+      "components": [
+        "Role",
+        "Objective",
+        "Scenario",
+        "Expected Solution",
+        "Steps",
+        "Strategic Clarity",
+        "Contextual Depth",
+        "Actionable Outcomes",
+        "Complexity in Design",
+        "May Restrict Flexibility"
+      ],
+      "strengths": [
+        "Strategic Clarity",
+        "Contextual Depth",
+        "Actionable Outcomes"
+      ],
+      "weaknesses": [
+        "Complexity in Design",
+        "May Restrict Flexibility"
+      ],
+      "optimal_for": [
+        "ROSES Framework is particularly valuable for businesses, researchers, and educators seeking to leverage AI for comprehensive, solution-oriented engage"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "elevating",
+        "prompt",
+        "engineering",
+        "withthe",
+        "roses",
+        "introduces",
+        "nuanced",
+        "structured",
+        "around",
+        "five"
+      ]
+    },
+    "43": {
+      "id": "43",
+      "filename": "43_Prompt_engineering_withthe_RTF_Framework.md",
+      "name": "Prompt engineering withthe RTF Framework",
+      "acronym": "",
+      "description": "Welcome to the realm of structured prompt crafting, where clarity meets functionality, introducing the RTF Framework. This framework, standing for Request, Task, and Format, offers a streamlined approach to interacting with AI models. It's like having a linguistic compass, guiding you through the va",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Request",
+        "Task",
+        "Format",
+        "Direct and Clear Communication",
+        "Flexible and Versatile",
+        "User-Friendly",
+        "May Be Too Structured",
+        "Requires Specificity"
+      ],
+      "strengths": [
+        "Direct and Clear Communication",
+        "Flexible and Versatile",
+        "User-Friendly"
+      ],
+      "weaknesses": [
+        "May Be Too Structured",
+        "Requires Specificity"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "rtf",
+        "welcome",
+        "realm",
+        "structured",
+        "crafting",
+        "clarity",
+        "meets"
+      ]
+    },
+    "44": {
+      "id": "44",
+      "filename": "44_Transform_Creativity_withThe_SCAMPER_Framework_for_ChatGPT.md",
+      "name": "Transform Creativity withThe SCAMPER Framework for ChatGPT",
+      "acronym": "",
+      "description": "The SCAMPER Framework is a powerful tool for brainstorming and problem-solving that leverages seven creative strategies—Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, and Reverse. By breaking down challenges and generating fresh ideas, SCAMPER empowers users to approach innovatio",
+      "domains": [
+        "creative",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "content_creation",
+        "brainstorming"
+      ],
+      "components": [
+        "Substitute",
+        "Combine",
+        "Adapt",
+        "Modify",
+        "Put to Another Use",
+        "Eliminate",
+        "Reverse",
+        "Substitute",
+        "Combine",
+        "Adapt"
+      ],
+      "strengths": [
+        "Comprehensive",
+        "Practical",
+        "Flexible"
+      ],
+      "weaknesses": [
+        "Learning Curve",
+        "Effort",
+        "ChatGPT-4o",
+        "Claude Sonnet 3.5",
+        "Google Gemini"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 20,
+      "keywords": [
+        "transform",
+        "creativity",
+        "withthe",
+        "scamper",
+        "chatgpt",
+        "powerful",
+        "tool",
+        "brainstorming",
+        "problem",
+        "solving"
+      ]
+    },
+    "45": {
+      "id": "45",
+      "filename": "45_Enhance_Decision-Making_withThe_Six_Thinking_Hats_Framework_for_ChatGPT.md",
+      "name": "Enhance Decision-Making withThe Six Thinking Hats Framework for ChatGPT",
+      "acronym": "",
+      "description": "The Six Thinking Hats Framework is a proven method for structured thinking and problem-solving. By exploring multiple perspectives—facts, emotions, risks, benefits, creativity, and process—it empowers teams and individuals to make better decisions. When paired with ChatGPT, this framework becomes a ",
+      "domains": [
+        "creative",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "problem_solving",
+        "analysis",
+        "brainstorming"
+      ],
+      "components": [
+        "White Hat",
+        "Red Hat",
+        "Black Hat",
+        "Yellow Hat",
+        "Green Hat",
+        "Blue Hat",
+        "White Hat",
+        "Red Hat",
+        "Black Hat",
+        "Yellow Hat"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 30,
+      "keywords": [
+        "enhance",
+        "decision",
+        "making",
+        "withthe",
+        "six",
+        "thinking",
+        "hats",
+        "chatgpt",
+        "proven",
+        "structured"
+      ]
+    },
+    "46": {
+      "id": "46",
+      "filename": "46_Prompt_engineering_withthe_SMART_Framework.md",
+      "name": "Prompt engineering withthe SMART Framework",
+      "acronym": "",
+      "description": "Prepare to unlock the secrets of effective communication with AI using the SMART Framework, a method that sharpens the focus and enhances the quality of interactions between humans and artificial intelligence. SMART, an acronym standing for Specific, Measurable, Achievable, Relevant, and Time-bound,",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Time-bound",
+        "Precision and Clarity",
+        "Goal-Oriented",
+        "Efficiency",
+        "Potential for Rigidity",
+        "Preparation Time"
+      ],
+      "strengths": [
+        "Precision and Clarity",
+        "Goal-Oriented",
+        "Efficiency"
+      ],
+      "weaknesses": [
+        "Potential for Rigidity",
+        "Preparation Time"
+      ],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "smart",
+        "prepare",
+        "unlock",
+        "secrets",
+        "effective",
+        "communication",
+        "sharpens"
+      ]
+    },
+    "47": {
+      "id": "47",
+      "filename": "47_Engaging_in_thoughtful_inquiry_withthe_Socratic_Method.md",
+      "name": "Engaging in thoughtful inquiry withthe Socratic Method",
+      "acronym": "",
+      "description": "Delve into the Socratic Method, an esteemed and time-honored technique rooted in the practice of critical thinking and deep, philosophical inquiry. This method, named after the classical Greek philosopher Socrates, emphasizes the importance of asking probing questions to stimulate critical thinking ",
+      "domains": [
+        "education"
+      ],
+      "task_types": [
+        "brainstorming"
+      ],
+      "components": [
+        "Encourage Exploration",
+        "Seek Clarity",
+        "Promote Critical Thinking",
+        "Foster Dialogue",
+        "Enhances Understanding",
+        "Develops Critical Thinking",
+        "Encourages Active Engagement",
+        "Time-Consuming",
+        "May Not Yield Immediate Answers"
+      ],
+      "strengths": [
+        "Enhances Understanding",
+        "Develops Critical Thinking",
+        "Encourages Active Engagement"
+      ],
+      "weaknesses": [
+        "Time-Consuming",
+        "May Not Yield Immediate Answers"
+      ],
+      "optimal_for": [
+        "It's a powerful tool for those looking to foster a culture of inquiry, debate, and critical thinking"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "engaging",
+        "thoughtful",
+        "inquiry",
+        "withthe",
+        "socratic",
+        "delve",
+        "esteemed",
+        "time",
+        "honored",
+        "rooted"
+      ]
+    },
+    "48": {
+      "id": "48",
+      "filename": "48_Prompt_engineering_withthe_SPAR_Framework.md",
+      "name": "Prompt engineering withthe SPAR Framework",
+      "acronym": "",
+      "description": "This framework simplifies the process of engaging with AI, turning complex concepts into actionable tasks and clear outcomes. It's akin to having a seasoned guide in the vast and sometimes unpredictable terrain of artificial intelligence, making every step forward as informed and impactful as possib",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Situation",
+        "Purpose",
+        "Action",
+        "Result",
+        "Clear Direction",
+        "Goal Alignment",
+        "Actionable Insights",
+        "Requires Initial Detail",
+        "May Limit Exploration"
+      ],
+      "strengths": [
+        "Clear Direction",
+        "Goal Alignment",
+        "Actionable Insights"
+      ],
+      "weaknesses": [
+        "Requires Initial Detail",
+        "May Limit Exploration"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "spar",
+        "simplifies",
+        "engaging",
+        "turning",
+        "complex",
+        "concepts",
+        "actionable"
+      ]
+    },
+    "49": {
+      "id": "49",
+      "filename": "49_Igniting_AI_Prompt_Engineering_withthe_SPARK_Framework.md",
+      "name": "Igniting AI Prompt Engineering withthe SPARK Framework",
+      "acronym": "",
+      "description": "The SPARK Framework introduces a vibrant approach to AI Prompt Engineering, encapsulating five dynamic elements: Situation, Problem, Aspiration, Result, and Kismet. This framework is engineered to ignite the development of AI prompts by providing a structured yet flexible blueprint for addressing co",
+      "domains": [
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving"
+      ],
+      "components": [
+        "Situation",
+        "Problem",
+        "Aspiration",
+        "Result",
+        "Kismet",
+        "Contextual Depth",
+        "Goal-Oriented Strategy",
+        "Innovative Engagement",
+        "Complexity in Design",
+        "Potential for Over-Specification"
+      ],
+      "strengths": [
+        "Contextual Depth",
+        "Goal-Oriented Strategy",
+        "Innovative Engagement"
+      ],
+      "weaknesses": [
+        "Complexity in Design",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [
+        "Its structured yet flexible approach ensures that AI-generated solutions are both strategic and surprising"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "igniting",
+        "prompt",
+        "engineering",
+        "withthe",
+        "spark",
+        "introduces",
+        "vibrant",
+        "encapsulating",
+        "five",
+        "dynamic"
+      ]
+    },
+    "50": {
+      "id": "50",
+      "filename": "50_AI_Prompt_Engineering_withThe_SPEAR_Framework.md",
+      "name": "AI Prompt Engineering withThe SPEAR Framework",
+      "acronym": "",
+      "description": "The SPEAR Framework, created by [AI consultant and international keynote speaker Britney Muller](https://britneymuller.com/), is built on 5 simple steps that make prompt engineering effective and accessible. The emphasis is on keeping it simple—don’t overthink! By following SPEAR, you can develop cl",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Start",
+        "Provide",
+        "Explain",
+        "Ask",
+        "Rinse & Repeat",
+        "Simplicity",
+        "Focus on Essentials",
+        "Efficiency",
+        "Limited for Complex Scenarios",
+        "Reliance on Iteration"
+      ],
+      "strengths": [
+        "Simplicity",
+        "Focus on Essentials",
+        "Efficiency"
+      ],
+      "weaknesses": [
+        "Limited for Complex Scenarios",
+        "Reliance on Iteration"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "spear",
+        "created",
+        "consultant",
+        "international",
+        "keynote",
+        "speaker",
+        "britney"
+      ]
+    },
+    "51": {
+      "id": "51",
+      "filename": "51_Simplifying_AI_prompt_creation_withthe_TAG_Framework_for_Prompt_Engineering.md",
+      "name": "Simplifying AI prompt creation withthe TAG Framework for Prompt Engineering",
+      "acronym": "",
+      "description": "Introducing the TAG Framework, a streamlined approach for AI Prompt Engineering, focusing on Task, Action, and Goal. This framework is designed to clarify the construction of prompts by breaking down the process into three fundamental components: defining the task at hand, specifying the action the ",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Task",
+        "Action",
+        "Goal",
+        "Focus and Clarity",
+        "Efficiency in Design",
+        "Outcome-Oriented",
+        "Potential for Oversimplification",
+        "Dependence on Clear Goal Definition"
+      ],
+      "strengths": [
+        "Focus and Clarity",
+        "Efficiency in Design",
+        "Outcome-Oriented"
+      ],
+      "weaknesses": [
+        "Potential for Oversimplification",
+        "Dependence on Clear Goal Definition"
+      ],
+      "optimal_for": [
+        "TAG Framework excels in environments that benefit from a straightforward, goal-oriented approach to AI engagement"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "simplifying",
+        "prompt",
+        "creation",
+        "withthe",
+        "tag",
+        "engineering",
+        "introducing",
+        "streamlined",
+        "focusing",
+        "task"
+      ]
+    },
+    "52": {
+      "id": "52",
+      "filename": "52_Refining_inquiry_and_analysis_withthe_TQA_Approach_for_AI_Prompt_Engineering.md",
+      "name": "Refining inquiry and analysis withthe TQA Approach for AI Prompt Engineering",
+      "acronym": "",
+      "description": "Explore the TQA Approach, an innovative framework specifically designed for AI Prompt Engineering, standing for Topic, Question, and Answer. This approach streamlines the process of creating prompts that are sharply focused, facilitating a direct pathway to obtaining precise and comprehensive answer",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation",
+        "analysis"
+      ],
+      "components": [
+        "Topic",
+        "Question",
+        "Answer",
+        "Enhanced Focus",
+        "Customized Responses",
+        "Efficient Information Gathering",
+        "Requires Precise Question Formulation",
+        "Potential for Over-Specification"
+      ],
+      "strengths": [
+        "Enhanced Focus",
+        "Customized Responses",
+        "Efficient Information Gathering"
+      ],
+      "weaknesses": [
+        "Requires Precise Question Formulation",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [
+        "It's an excellent tool for journalists, researchers, educators, and business analysts seeking to leverage AI for focused inquiry and analysis"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "refining",
+        "inquiry",
+        "analysis",
+        "withthe",
+        "tqa",
+        "prompt",
+        "engineering",
+        "explore",
+        "innovative",
+        "specifically"
+      ]
+    },
+    "53": {
+      "id": "53",
+      "filename": "53_Refining_AI_engagements_withthe_TRACE_Framework_for_Prompt_Engineering.md",
+      "name": "Refining AI engagements withthe TRACE Framework for Prompt Engineering",
+      "acronym": "",
+      "description": "Unlock the potential of AI interactions with the TRACE Framework, a sophisticated model designed for AI Prompt Engineering. This framework, focusing on Task, Request, Action, Context, and Example, provides a holistic approach to constructing prompts that are clear, contextualized, and capable of eli",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering"
+      ],
+      "components": [
+        "Task",
+        "Request",
+        "Action",
+        "Context",
+        "Example",
+        "Comprehensive Prompt Design",
+        "Enhanced Clarity and Direction",
+        "Rich Contextualization",
+        "Increased Complexity",
+        "Potential for Over-Specification"
+      ],
+      "strengths": [
+        "Comprehensive Prompt Design",
+        "Enhanced Clarity and Direction",
+        "Rich Contextualization"
+      ],
+      "weaknesses": [
+        "Increased Complexity",
+        "Potential for Over-Specification"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "refining",
+        "engagements",
+        "withthe",
+        "trace",
+        "prompt",
+        "engineering",
+        "unlock",
+        "potential",
+        "interactions",
+        "sophisticated"
+      ]
+    },
+    "54": {
+      "id": "54",
+      "filename": "54_Optimizing_AI_Prompt_Engineering_withthe_TRACI_Framework.md",
+      "name": "Optimizing AI Prompt Engineering withthe TRACI Framework",
+      "acronym": "",
+      "description": "The TRACI Framework introduces a holistic approach to AI Prompt Engineering by encapsulating five critical elements: Task, Role, Audience, Create, and Intent. This comprehensive framework guides the development of prompts to ensure they are purposefully constructed with the end user in mind, leading",
+      "domains": [
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Task",
+        "Role",
+        "Audience",
+        "Create",
+        "Intent",
+        "User-Centric Design",
+        "Clear Objectives",
+        "Versatile Application",
+        "Potential for Over-Complexity",
+        "Specificity vs. Flexibility"
+      ],
+      "strengths": [
+        "User-Centric Design",
+        "Clear Objectives",
+        "Versatile Application"
+      ],
+      "weaknesses": [
+        "Potential for Over-Complexity",
+        "Specificity vs. Flexibility"
+      ],
+      "optimal_for": [
+        "Its structured approach ensures that AI-generated content is aligned with users' needs and objectives, maximizing effectiveness and engagement"
+      ],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "optimizing",
+        "prompt",
+        "engineering",
+        "withthe",
+        "traci",
+        "introduces",
+        "holistic",
+        "encapsulating",
+        "five",
+        "critical"
+      ]
+    },
+    "55": {
+      "id": "55",
+      "filename": "55_AI_prompt_engineering_withThe_Tree_of_Thought_Framework.md",
+      "name": "AI prompt engineering withThe Tree of Thought Framework",
+      "acronym": "",
+      "description": "The Tree of Thought framework represents a transformative approach to prompt engineering. By structuring reasoning paths as interconnected nodes within a 'thought tree,' this framework enhances an AI model's capacity to explore complex decision-making, logical chains, and innovative solutions. The f",
+      "domains": [
+        "business",
+        "technical",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "decision_making",
+        "problem_solving",
+        "analysis",
+        "brainstorming"
+      ],
+      "components": [
+        "Scenario Analysis",
+        "Multi-step Reasoning",
+        "Creative Problem Solving",
+        "Optimized Outcomes",
+        "Nodes",
+        "Edges",
+        "Root",
+        "Branches",
+        "Leaves",
+        "Key Differences"
+      ],
+      "strengths": [
+        "Dynamic Reasoning",
+        "Iterative Process",
+        "Enhanced Creativity",
+        "Flexibility"
+      ],
+      "weaknesses": [
+        "Complexity",
+        "Time-Consuming",
+        "ChatGPT-4o and 4o1",
+        "Claude Sonnet 3.5",
+        "Gemini Flash 1.5"
+      ],
+      "optimal_for": [],
+      "complexity": "complex",
+      "flexibility": "high",
+      "examples_count": 20,
+      "keywords": [
+        "prompt",
+        "engineering",
+        "withthe",
+        "tree",
+        "thought",
+        "represents",
+        "transformative",
+        "structuring",
+        "reasoning",
+        "paths"
+      ]
+    },
+    "56": {
+      "id": "56",
+      "filename": "56_Exploring_possibilities_withThe_What_if_Framework.md",
+      "name": "Exploring possibilities withThe 'What if' Framework",
+      "acronym": "",
+      "description": "By framing prompts around 'What if' questions, this framework pushes the boundaries of conventional thinking and encourages a speculative exploration of outcomes, solutions, and scenarios that might not be immediately apparent.",
+      "domains": [
+        "creative",
+        "problem"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "problem_solving",
+        "analysis"
+      ],
+      "components": [
+        "Stimulate Imagination",
+        "Explore Alternatives",
+        "Challenge Assumptions",
+        "Facilitate Strategic Planning",
+        "Encourages Deep Thinking",
+        "Promotes Innovation",
+        "Prepares for the Future",
+        "May Lead to Speculation",
+        "Requires Further Analysis"
+      ],
+      "strengths": [
+        "Encourages Deep Thinking",
+        "Promotes Innovation",
+        "Prepares for the Future"
+      ],
+      "weaknesses": [
+        "May Lead to Speculation",
+        "Requires Further Analysis"
+      ],
+      "optimal_for": [
+        "It's ideal for businesses, educators, policymakers, and individuals looking to push the envelope and explore future possibilities"
+      ],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 1,
+      "keywords": [
+        "exploring",
+        "possibilities",
+        "withthe",
+        "what",
+        "framing",
+        "prompts",
+        "around",
+        "questions",
+        "pushes",
+        "boundaries"
+      ]
+    },
+    "57": {
+      "id": "57",
+      "filename": "57_Discover_the_Method_BehindZero-shot_Prompting_A_Core_Technique_in_AI_Prompt_Engineering.md",
+      "name": "Discover the Method BehindZero-shot Prompting: A Core Technique in AI Prompt Engineering",
+      "acronym": "",
+      "description": "Zero-shot Prompting: A Core Technique in AI Prompt Engineering Zero-shot prompting is a fundamental technique in AI prompt engineering. As a method, it allows language models to tackle tasks without requiring prior examples or demonstrations. Instead, the model relies on a clear task description and",
+      "domains": [
+        "education",
+        "technical"
+      ],
+      "task_types": [
+        "prompt_engineering",
+        "content_creation"
+      ],
+      "components": [
+        "Definition",
+        "Objective",
+        "Simplicity",
+        "Efficiency",
+        "Baseline Testing",
+        "Lower Precision",
+        "Context Dependency",
+        "Lack of Flexibility"
+      ],
+      "strengths": [
+        "Simplicity",
+        "Efficiency",
+        "Baseline Testing"
+      ],
+      "weaknesses": [],
+      "optimal_for": [],
+      "complexity": "medium",
+      "flexibility": "high",
+      "examples_count": 0,
+      "keywords": [
+        "discover",
+        "behindzero",
+        "shot",
+        "prompting",
+        "core",
+        "prompt",
+        "engineering",
+        "zero",
+        "fundamental",
+        "allows"
+      ]
+    }
+  }
+}
