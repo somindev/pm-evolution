@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Template</title>
+    <style>
+        /* ============================================================
+           BASE
+        ============================================================ */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.6; }
+
+        /* ============================================================
+           SLIDE SHELL — every slide starts hidden; .active shows it
+        ============================================================ */
+        .slide { display: none; min-height: 100vh; padding: 60px 80px; max-width: 1200px; margin: 0 auto; }
+        .slide.active { display: block; }
+
+        /* ============================================================
+           TYPOGRAPHY
+        ============================================================ */
+        h1 { font-size: 2.5rem; font-weight: 600; margin-bottom: 40px; color: #1a1a1a; border-bottom: 2px solid #e5e5e5; padding-bottom: 20px; }
+        h2 { font-size: 1.8rem; font-weight: 600; margin-bottom: 24px; color: #2a2a2a; }
+        h3 { font-size: 1.3rem; font-weight: 600; margin: 24px 0 12px 0; color: #333; }
+        p  { font-size: 1.1rem; margin-bottom: 16px; color: #444; }
+        code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: 'SF Mono', Monaco, 'Courier New', monospace; font-size: 0.95rem; }
+
+        /* ============================================================
+           SLIDE TYPES
+        ============================================================ */
+
+        /* Title slide — full-screen centered, used for opening & closing */
+        .slide.title-slide.active { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; text-align: center; padding: 40px; }
+        .title-slide h1 { font-size: 3.5rem; font-weight: 700; margin-bottom: 20px; border-bottom: none; padding-bottom: 0; }
+        .title-slide .subtitle { font-size: 1.4rem; color: #555; margin-bottom: 50px; font-weight: 400; }
+
+        /* Section slide — chapter dividers between groups of slides */
+        .slide.section-slide.active { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; text-align: center; padding: 40px; }
+        .section-slide h1 { font-size: 3rem; font-weight: 700; border-bottom: none; padding-bottom: 0; margin-bottom: 16px; }
+        .section-slide .section-number { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 3px; color: #999; margin-bottom: 20px; }
+        .section-slide .section-desc { font-size: 1.2rem; color: #666; max-width: 600px; }
+
+        /* ============================================================
+           CALLOUT BOXES
+        ============================================================ */
+
+        /* Key point — dark left border */
+        .trigger-box { background: #f8f9fa; border-left: 4px solid #1a1a1a; padding: 20px 24px; margin: 24px 0; }
+        .trigger-box h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #666; margin-bottom: 8px; }
+        .trigger-box p { font-size: 1.05rem; color: #333; margin: 0; }
+
+        /* Positive / recommended action — green left border */
+        .how-to-trigger { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 20px 24px; margin: 16px 0 24px 0; }
+        .how-to-trigger h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #2e7d32; margin-bottom: 8px; }
+        .how-to-trigger p { font-size: 1.05rem; color: #1b5e20; margin: 0; }
+        .how-to-trigger code { background: rgba(0,0,0,0.08); }
+
+        /* Caution / anti-pattern — orange left border */
+        .warning-box { background: #fff3e0; border-left: 4px solid #ff9800; padding: 20px 24px; margin: 16px 0 24px 0; }
+        .warning-box h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #e65100; margin-bottom: 8px; }
+        .warning-box p { font-size: 1.05rem; color: #bf360c; margin: 0; }
+
+        /* ============================================================
+           CODE BLOCK — dark terminal style
+           Syntax highlighting: wrap spans with .comment .key .string .cmd
+        ============================================================ */
+        .code-block { background: #1a1a1a; color: #e5e5e5; padding: 20px 24px; border-radius: 8px; font-family: 'SF Mono', Monaco, 'Courier New', monospace; font-size: 0.9rem; overflow-x: auto; margin: 20px 0; white-space: pre; line-height: 1.7; }
+        .code-block .comment { color: #6a9955; }
+        .code-block .key     { color: #9cdcfe; }
+        .code-block .string  { color: #ce9178; }
+        .code-block .cmd     { color: #dcdcaa; }
+
+        /* ============================================================
+           LAYOUT GRIDS
+        ============================================================ */
+
+        /* Two equal columns */
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
+
+        /* Three equal columns */
+        .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin: 24px 0; }
+
+        /* Column card — used inside .two-col / .three-col */
+        .col-card { background: #f8f9fa; padding: 24px; border-radius: 8px; }
+        .col-card h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: #666; margin-bottom: 12px; }
+        .col-card.good    { border-left: 4px solid #4caf50; }
+        .col-card.bad     { border-left: 4px solid #f44336; }
+        .col-card.neutral { border-left: 4px solid #2196F3; }
+
+        /* Info grid — 2×2 cards, equal weight */
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
+        .info-card { background: #f8f9fa; padding: 24px; border-radius: 8px; }
+        .info-card h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: #666; margin-bottom: 12px; }
+
+        /* ============================================================
+           USE-CASE LIST — icon + title + description rows
+        ============================================================ */
+        .use-cases { margin: 24px 0; }
+        .use-case-item { display: flex; align-items: flex-start; margin-bottom: 12px; padding: 14px 20px; background: #fafafa; border-radius: 8px; }
+        .use-case-icon { font-size: 1.5rem; margin-right: 16px; min-width: 32px; }
+        .use-case-text { flex: 1; }
+        .use-case-text strong { display: block; font-size: 1.05rem; color: #1a1a1a; margin-bottom: 4px; }
+        .use-case-text span { font-size: 0.95rem; color: #666; }
+
+        /* ============================================================
+           TABLE OF CONTENTS — clickable grid of chapter links
+        ============================================================ */
+        .toc-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+        .toc-item { display: flex; align-items: center; padding: 16px 20px; background: #f8f9fa; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
+        .toc-item:hover { background: #eee; }
+        .toc-number { width: 28px; height: 28px; background: #1a1a1a; color: #fff; border-radius: 50%; text-align: center; line-height: 28px; font-size: 0.85rem; margin-right: 12px; font-weight: 600; flex-shrink: 0; }
+        .toc-name { font-size: 1rem; color: #1a1a1a; }
+
+        /* ============================================================
+           MISC HELPERS
+        ============================================================ */
+
+        /* Inline numbered circle — use inside prose or lists */
+        .step-number { display: inline-block; width: 36px; height: 36px; background: #1a1a1a; color: #fff; border-radius: 50%; text-align: center; line-height: 36px; font-weight: 600; font-size: 1rem; margin-right: 12px; }
+
+        /* Simple divider list */
+        .feature-list { list-style: none; margin: 24px 0; }
+        .feature-list li { padding: 12px 0; border-bottom: 1px solid #eee; font-size: 1.05rem; }
+        .feature-list li:last-child { border-bottom: none; }
+
+        /* Pill tag */
+        .tag { display: inline-block; padding: 4px 10px; background: #e9ecef; border-radius: 4px; font-family: 'SF Mono', Monaco, 'Courier New', monospace; font-size: 0.85rem; margin: 4px 4px 4px 0; color: #495057; }
+
+        /* ============================================================
+           CHROME — progress bar, counter, buttons, hint
+        ============================================================ */
+        .progress { position: fixed; top: 0; left: 0; height: 4px; background: #1a1a1a; transition: width 0.3s; z-index: 100; }
+        .slide-counter { position: fixed; bottom: 40px; left: 40px; font-size: 0.9rem; color: #999; }
+        .keyboard-hint { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); font-size: 0.85rem; color: #999; }
+        .keyboard-hint kbd { background: #f0f0f0; padding: 4px 8px; border-radius: 4px; border: 1px solid #ddd; font-family: inherit; }
+        .navigation { position: fixed; bottom: 30px; right: 30px; display: flex; gap: 12px; z-index: 100; }
+        .nav-btn { width: 50px; height: 50px; border: 2px solid #1a1a1a; background: #fff; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+        .nav-btn:hover { background: #1a1a1a; color: #fff; }
+        .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- ================================================================
+     HOW TO USE THIS TEMPLATE
+     ─────────────────────────────────────────────────────────────────
+     1. Each slide = <div class="slide" data-slide="N">
+     2. First slide gets class "active"
+     3. Slide types: (no extra class) | title-slide | section-slide
+     4. Navigate with ← → arrow keys, Space, or the buttons
+     ================================================================ -->
+
+<!-- ================================================================
+     SLIDE 1 · TITLE SLIDE
+     Use for: opening screen, closing screen
+================================================================ -->
+<div class="slide title-slide active" data-slide="1">
+    <h1>演讲标题</h1>
+    <p class="subtitle">副标题 · 场合 · 日期</p>
+    <p style="color: #888; font-size: 1rem; max-width: 500px;">一两句话说清楚这次演讲在讲什么，以及听完之后你希望观众带走什么。</p>
+</div>
+
+<!-- ================================================================
+     SLIDE 2 · TABLE OF CONTENTS
+     Use for: overview after title, or before appendix
+================================================================ -->
+<div class="slide" data-slide="2">
+    <h1>目录</h1>
+    <div class="toc-list">
+        <div class="toc-item" onclick="goToSlide(3)">
+            <span class="toc-number">1</span>
+            <span class="toc-name">章节一</span>
+        </div>
+        <div class="toc-item" onclick="goToSlide(4)">
+            <span class="toc-number">2</span>
+            <span class="toc-name">章节二</span>
+        </div>
+        <div class="toc-item" onclick="goToSlide(5)">
+            <span class="toc-number">3</span>
+            <span class="toc-name">章节三</span>
+        </div>
+        <div class="toc-item" onclick="goToSlide(6)">
+            <span class="toc-number">4</span>
+            <span class="toc-name">章节四</span>
+        </div>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 3 · SECTION DIVIDER
+     Use for: chapter transitions
+================================================================ -->
+<div class="slide section-slide" data-slide="3">
+    <p class="section-number">Part 1</p>
+    <h1>章节标题</h1>
+    <p class="section-desc">一两句话说明这个章节涵盖的内容范围。</p>
+</div>
+
+<!-- ================================================================
+     SLIDE 4 · BEFORE / AFTER COMPARISON
+     Use for: problem vs solution, old vs new, wrong vs right
+================================================================ -->
+<div class="slide" data-slide="4">
+    <h1>对比：方案前后</h1>
+    <p>一句话说明为什么要对比，以及读者应该从这个对比里得到什么结论。</p>
+    <div class="two-col">
+        <div class="col-card bad">
+            <h4>旧方案 / 问题</h4>
+            <p>描述有什么问题</p>
+            <p>再加一个具体症状</p>
+            <p style="color: #c62828; margin-top: 12px;">结论：这样做的代价</p>
+        </div>
+        <div class="col-card good">
+            <h4>新方案 / 解法</h4>
+            <p>描述改变了什么</p>
+            <p>具体的改进点</p>
+            <p style="color: #2e7d32; margin-top: 12px;">结论：这样做的收益</p>
+        </div>
+    </div>
+    <div class="trigger-box">
+        <h4>关键洞察</h4>
+        <p>用一句话提炼这张幻灯片最重要的观点，让快速扫屏的人也能抓住核心。</p>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 5 · INFO GRID (2×2)
+     Use for: 4 parallel concepts, feature overview, quadrant analysis
+================================================================ -->
+<div class="slide" data-slide="5">
+    <h1>四个维度</h1>
+    <p>简短说明这四个概念之间是什么关系（并列、递进、对立……）。</p>
+    <div class="info-grid">
+        <div class="info-card">
+            <h4>维度一</h4>
+            <p>核心定义或描述。</p>
+            <p><code>示例代码或关键词</code></p>
+        </div>
+        <div class="info-card">
+            <h4>维度二</h4>
+            <p>核心定义或描述。</p>
+            <p><code>示例代码或关键词</code></p>
+        </div>
+        <div class="info-card">
+            <h4>维度三</h4>
+            <p>核心定义或描述。</p>
+        </div>
+        <div class="info-card">
+            <h4>维度四</h4>
+            <p>核心定义或描述。</p>
+        </div>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 6 · STEP LIST
+     Use for: numbered steps, sequential process, ranked items
+================================================================ -->
+<div class="slide" data-slide="6">
+    <h1>步骤 / 清单</h1>
+    <div class="use-cases">
+        <div class="use-case-item">
+            <span class="use-case-icon">1️⃣</span>
+            <div class="use-case-text">
+                <strong>第一步：标题</strong>
+                <span>具体说明这一步做什么、为什么要这样做。</span>
+            </div>
+        </div>
+        <div class="use-case-item">
+            <span class="use-case-icon">2️⃣</span>
+            <div class="use-case-text">
+                <strong>第二步：标题</strong>
+                <span>具体说明。可以加 <code>内联代码</code> 或命令。</span>
+            </div>
+        </div>
+        <div class="use-case-item">
+            <span class="use-case-icon">3️⃣</span>
+            <div class="use-case-text">
+                <strong>第三步：标题</strong>
+                <span>具体说明。</span>
+            </div>
+        </div>
+        <div class="use-case-item">
+            <span class="use-case-icon">✅</span>
+            <div class="use-case-text">
+                <strong>完成标志</strong>
+                <span>说明怎么验证这个流程做对了。</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 7 · CODE + CALLOUT BOXES
+     Use for: commands, config, demos with context
+================================================================ -->
+<div class="slide" data-slide="7">
+    <h1>代码示例</h1>
+    <div class="how-to-trigger">
+        <h4>操作步骤</h4>
+        <p>在这里放推荐操作或行动建议。</p>
+    </div>
+    <div class="code-block"><span class="comment"># 注释文字（绿色）</span>
+<span class="cmd">command</span> --flag   <span class="comment"># 行内注释</span>
+
+<span class="key">key</span>: <span class="string">"value"</span>      <span class="comment"># YAML / JSON 示例</span></div>
+    <div class="warning-box">
+        <h4>注意</h4>
+        <p>放这里的是反模式、陷阱、或需要警惕的边界情况。</p>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 8 · THREE-COL PATHS
+     Use for: 3 options / tiers / personas with trade-offs
+================================================================ -->
+<div class="slide" data-slide="8">
+    <h1>三条路径</h1>
+    <p>说明三条路径的选择维度（成本、速度、效果……）。</p>
+    <div class="three-col">
+        <div class="col-card neutral">
+            <h4>路径 A — 保守</h4>
+            <p>做什么：</p>
+            <p>适合：时间紧 / 改动小</p>
+            <p style="margin-top:12px; color:#555;">代价：__</p>
+        </div>
+        <div class="col-card good">
+            <h4>路径 B — 推荐</h4>
+            <p>做什么：</p>
+            <p>适合：大多数场景</p>
+            <p style="margin-top:12px; color:#2e7d32;">收益：__</p>
+        </div>
+        <div class="col-card bad">
+            <h4>路径 C — 激进</h4>
+            <p>做什么：</p>
+            <p>适合：资源充足时</p>
+            <p style="margin-top:12px; color:#c62828;">风险：__</p>
+        </div>
+    </div>
+    <div class="trigger-box">
+        <h4>我的建议</h4>
+        <p>直接说你推荐哪条路径，以及做这个判断的核心理由。</p>
+    </div>
+</div>
+
+<!-- ================================================================
+     SLIDE 9 · SIMPLE FEATURE LIST
+     Use for: attributes, properties, a short enumeration
+================================================================ -->
+<div class="slide" data-slide="9">
+    <h1>功能列表</h1>
+    <p>一句话说明这个列表是什么，以及读者应该关注哪类信息。</p>
+    <ul class="feature-list">
+        <li><strong>功能名称</strong> — 一句话描述</li>
+        <li><strong>功能名称</strong> — 一句话描述</li>
+        <li><strong>功能名称</strong> — 一句话描述</li>
+        <li><strong>功能名称</strong> — 一句话描述</li>
+        <li><strong>功能名称</strong> — 一句话描述</li>
+    </ul>
+    <p>
+        <span class="tag">标签 A</span>
+        <span class="tag">标签 B</span>
+        <span class="tag">标签 C</span>
+    </p>
+</div>
+
+<!-- ================================================================
+     SLIDE 10 · END / THANK YOU
+     Use for: closing screen, Q&A prompt
+================================================================ -->
+<div class="slide title-slide" data-slide="10">
+    <h1>结语标题</h1>
+    <p class="subtitle">提问？反馈？</p>
+    <p style="color: #888; font-size: 1rem; max-width: 500px; margin-top: 20px;">
+        在这里放联系方式、下一步行动、或资源链接。
+    </p>
+</div>
+
+<!-- ================================================================
+     CHROME
+================================================================ -->
+<div class="navigation">
+    <button class="nav-btn" id="prevBtn" onclick="prevSlide()">&#8592;</button>
+    <button class="nav-btn" id="nextBtn" onclick="nextSlide()">&#8594;</button>
+</div>
+<div class="slide-counter" id="slideCounter">1 / --</div>
+<div class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> 导航 &nbsp;|&nbsp; <kbd>Space</kbd> 下一页</div>
+
+<script>
+    let currentSlide = 1;
+    const slides = document.querySelectorAll('[data-slide]');
+    const totalSlides = slides.length;
+
+    function showSlide(n) {
+        if (n > totalSlides) n = totalSlides;
+        if (n < 1) n = 1;
+        currentSlide = n;
+        slides.forEach(s => s.classList.remove('active'));
+        document.querySelector(`[data-slide="${currentSlide}"]`).classList.add('active');
+        document.getElementById('slideCounter').textContent = `${currentSlide} / ${totalSlides}`;
+        document.getElementById('progress').style.width = `${(currentSlide / totalSlides) * 100}%`;
+        document.getElementById('prevBtn').disabled = currentSlide === 1;
+        document.getElementById('nextBtn').disabled = currentSlide === totalSlides;
+    }
+
+    function nextSlide() { showSlide(currentSlide + 1); }
+    function prevSlide() { showSlide(currentSlide - 1); }
+    function goToSlide(n) { showSlide(n); }
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
+        else if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
+    });
+
+    let touchStartX = 0;
+    document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
+    document.addEventListener('touchend', e => {
+        const diff = touchStartX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) { diff > 0 ? nextSlide() : prevSlide(); }
+    });
+
+    showSlide(1);
+</script>
+</body>
+</html>
