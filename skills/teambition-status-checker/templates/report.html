@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>任务状态报告 · {{PROJECT_NAME}} · {{REPORT_DATE}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --border: #e8e5df;
+    --text-primary: #1a1814;
+    --text-secondary: #6b6560;
+    --text-muted: #a09b95;
+    --accent: #2563eb;
+    --overdue: #dc2626;
+    --overdue-bg: #fef2f2;
+    --overdue-border: #fca5a5;
+    --approaching: #d97706;
+    --approaching-bg: #fffbeb;
+    --approaching-border: #fcd34d;
+    --suspended: #7c3aed;
+    --suspended-bg: #f5f3ff;
+    --suspended-border: #c4b5fd;
+    --warn: #0369a1;
+    --warn-bg: #eff6ff;
+    --warn-border: #bfdbfe;
+    --ok: #15803d;
+    --ok-bg: #f0fdf4;
+    --ok-border: #86efac;
+    --radius: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,.10), 0 8px 32px rgba(0,0,0,.06);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    padding: 48px 24px;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+
+  /* ── Header ─────────────────────────────────────────── */
+  .report-header { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+  .report-header .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px;
+  }
+  .report-header h1 {
+    font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700;
+    color: var(--text-primary); line-height: 1.2; margin-bottom: 8px;
+  }
+  .report-header .subtitle { font-size: 14px; color: var(--text-secondary); font-weight: 300; }
+
+  /* ── Summary cards ───────────────────────────────────── */
+  .summary-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 16px; margin-bottom: 36px;
+  }
+  .summary-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px 16px; text-align: center; box-shadow: var(--shadow);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .summary-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+  .summary-card .num {
+    font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700;
+    line-height: 1; margin-bottom: 6px; opacity: 0; animation: countIn .6s forwards;
+  }
+  .summary-card .label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--text-muted);
+  }
+  .sc-total .num      { color: var(--text-primary); animation-delay: .00s; }
+  .sc-overdue .num    { color: var(--overdue);      animation-delay: .08s; }
+  .sc-approaching .num{ color: var(--approaching);  animation-delay: .12s; }
+  .sc-suspended .num  { color: var(--suspended);    animation-delay: .16s; }
+  .sc-update .num     { color: var(--warn);         animation-delay: .20s; }
+  .sc-todo .num       { color: var(--accent);       animation-delay: .24s; }
+  .sc-normal .num     { color: var(--ok);           animation-delay: .28s; }
+  @keyframes countIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ── Filter bar ──────────────────────────────────────── */
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; align-items: center; }
+  .filter-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-right: 4px; }
+  .filter-btn {
+    font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600;
+    padding: 5px 14px; border-radius: 20px; border: 1.5px solid var(--border);
+    background: var(--surface); color: var(--text-secondary); cursor: pointer; transition: all .15s;
+  }
+  .filter-btn:hover  { border-color: var(--text-secondary); color: var(--text-primary); }
+  .filter-btn.active { background: var(--text-primary); color: #fff; border-color: var(--text-primary); }
+
+  /* ── Section label ───────────────────────────────────── */
+  .section-label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px;
+  }
+  .task-count { color: var(--text-primary); font-weight: 700; }
+
+  /* ── Task cards ──────────────────────────────────────── */
+  .task-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 4px solid var(--border); border-radius: var(--radius);
+    padding: 24px 28px; margin-bottom: 16px; box-shadow: var(--shadow);
+    opacity: 0; transform: translateY(12px); animation: slideIn .4s forwards;
+    transition: box-shadow .2s;
+  }
+  .task-card.hidden { display: none; }
+  .task-card:hover  { box-shadow: var(--shadow-hover); }
+  .card-overdue     { border-left-color: var(--overdue);    background: var(--overdue-bg);    border-color: var(--overdue-border);    border-left-color: var(--overdue);    }
+  .card-approaching { border-left-color: var(--approaching); background: var(--approaching-bg); border-color: var(--approaching-border); border-left-color: var(--approaching); }
+  .card-suspended   { border-left-color: var(--suspended);  background: var(--suspended-bg);  border-color: var(--suspended-border);  border-left-color: var(--suspended);  }
+  .card-warn        { border-left-color: var(--warn);       background: var(--warn-bg);       border-color: var(--warn-border);       border-left-color: var(--warn);       }
+  .card-ok          { border-left-color: var(--ok); }
+  @keyframes slideIn { to { opacity: 1; transform: translateY(0); } }
+
+  .card-header { margin-bottom: 14px; }
+  .card-title-row {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 16px; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .card-title { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; line-height: 1.3; flex: 1; min-width: 200px; }
+  .card-title-link {
+    color: var(--text-primary); text-decoration: none;
+    border-bottom: 1px dashed var(--text-muted); transition: color .15s, border-color .15s;
+  }
+  .card-title-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .badge {
+    display: inline-block; font-size: 11px; font-weight: 600;
+    padding: 3px 8px; border-radius: 20px; white-space: nowrap;
+  }
+  .badge-overdue     { background: var(--overdue);    color: #fff; }
+  .badge-approaching { background: var(--approaching); color: #fff; }
+  .badge-suspended   { background: var(--suspended);  color: #fff; }
+  .badge-update      { background: var(--warn);       color: #fff; }
+  .badge-todo        { background: #0ea5e9;            color: #fff; }
+  .badge-ok          { background: var(--ok);          color: #fff; }
+
+  .days-chip {
+    display: inline-block; font-size: 11px; font-weight: 700;
+    padding: 3px 9px; border-radius: 20px; white-space: nowrap;
+  }
+  .chip-overdue    { background: #fef2f2; color: var(--overdue);    border: 1.5px solid var(--overdue);    }
+  .chip-approaching{ background: #fffbeb; color: var(--approaching); border: 1.5px solid var(--approaching); }
+
+  .card-meta-row { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--text-secondary); align-items: center; }
+  .meta-item strong { color: var(--text-primary); }
+
+  .subtask-toggle {
+    font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600;
+    padding: 3px 10px; border-radius: 8px; border: 1.5px solid var(--border);
+    background: var(--bg); color: var(--text-secondary); cursor: pointer;
+    transition: all .15s; margin-left: auto;
+  }
+  .subtask-toggle:hover { background: var(--border); color: var(--text-primary); }
+
+  .reason {
+    font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;
+    padding: 10px 14px; background: rgba(0,0,0,.03); border-radius: 8px;
+  }
+  .todo-warn { font-size: 13px; color: var(--approaching); margin-bottom: 12px; font-weight: 500; }
+
+  /* ── Subtasks ────────────────────────────────────────── */
+  .subtasks { border-top: 1px solid var(--border); padding-top: 14px; margin-top: 4px; overflow: hidden; transition: max-height .3s ease, opacity .3s ease; }
+  .subtasks.collapsed { max-height: 0 !important; opacity: 0; padding-top: 0; border-top: none; margin-top: 0; }
+  .no-subtasks { font-size: 13px; color: var(--text-muted); font-style: italic; }
+  .subtask-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 13px;
+  }
+  .subtask-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .subtask-done { opacity: 0.65; }
+  .sub-icon  { font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+  .sub-info  { flex: 1; min-width: 0; }
+  .sub-status {
+    display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 7px;
+    border-radius: 10px; background: var(--bg); border: 1px solid var(--border);
+    margin-right: 6px; white-space: nowrap; vertical-align: middle;
+  }
+  .sub-name  { color: var(--text-primary); word-break: break-all; }
+  .sub-meta  {
+    display: flex; flex-direction: column; gap: 2px;
+    font-size: 12px; color: var(--text-muted); white-space: nowrap; text-align: right; flex-shrink: 0;
+  }
+
+  /* ── Footer ──────────────────────────────────────────── */
+  .report-footer {
+    margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border);
+    font-size: 12px; color: var(--text-muted); text-align: center;
+  }
+
+  /* ── Responsive ──────────────────────────────────────── */
+  @media (max-width: 600px) {
+    body { padding: 24px 16px; }
+    .report-header h1 { font-size: 26px; }
+    .summary-grid { grid-template-columns: repeat(3, 1fr); }
+    .card-title-row { flex-direction: column; }
+    .sub-meta { flex-direction: row; gap: 8px; text-align: left; }
+    .subtask-toggle { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="report-header">
+    <p class="eyebrow">Teambition · 任务状态报告</p>
+    <h1>{{PROJECT_NAME}}</h1>
+    <p class="subtitle">生成时间：{{GENERATED_AT}}（UTC+8）</p>
+  </header>
+
+  <!-- ── Summary ─────────────────────────────────────── -->
+  <div class="summary-grid">
+    <div class="summary-card sc-total">      <div class="num">{{COUNT_TOTAL}}</div>      <div class="label">总任务数</div></div>
+    <div class="summary-card sc-overdue">    <div class="num">{{COUNT_OVERDUE}}</div>    <div class="label">警告超期</div></div>
+    <div class="summary-card sc-approaching"><div class="num">{{COUNT_APPROACHING}}</div><div class="label">接近上线</div></div>
+    <div class="summary-card sc-suspended">  <div class="num">{{COUNT_SUSPENDED}}</div>  <div class="label">暂缓</div></div>
+    <div class="summary-card sc-update">     <div class="num">{{COUNT_UPDATE}}</div>     <div class="label">建议更新</div></div>
+    <div class="summary-card sc-todo">       <div class="num">{{COUNT_TODO}}</div>       <div class="label">子项目待更新</div></div>
+    <div class="summary-card sc-normal">     <div class="num">{{COUNT_NORMAL}}</div>     <div class="label">正常</div></div>
+  </div>
+
+  <!-- ── Filter bar ──────────────────────────────────── -->
+  <div class="filter-bar">
+    <span class="filter-label">筛选</span>
+    {{FILTER_BUTTONS}}
+  </div>
+
+  <p class="section-label">
+    全部任务 · <span class="task-count" id="visibleCount">{{COUNT_TOTAL}}</span> 项 · 按风险等级排列
+  </p>
+
+  <!-- ── Task cards ───────────────────────────────────── -->
+  <div id="cardList">
+    {{TASK_CARDS}}
+  </div>
+
+  <footer class="report-footer">
+    报告由 Teambition Status Checker 自动生成 · {{REPORT_DATE}}
+  </footer>
+
+</div>
+
+<script>
+// ── Filter ─────────────────────────────────────────────
+const filterBtns   = document.querySelectorAll('.filter-btn');
+const cards        = document.querySelectorAll('.task-card');
+const visibleCount = document.getElementById('visibleCount');
+
+function updateCount() {
+  visibleCount.textContent = document.querySelectorAll('.task-card:not(.hidden)').length;
+}
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    cards.forEach(card => {
+      if (filter === 'all') {
+        card.classList.remove('hidden');
+      } else {
+        const badges = card.dataset.badges || '';
+        card.classList.toggle('hidden', !badges.split(' ').includes(filter));
+      }
+    });
+    updateCount();
+  });
+});
+
+// ── Collapsible subtasks ───────────────────────────────
+function toggleSub(btn) {
+  const card     = btn.closest('.task-card');
+  const subtasks = card.querySelector('.subtasks');
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  if (expanded) {
+    subtasks.style.maxHeight = subtasks.scrollHeight + 'px';
+    requestAnimationFrame(() => subtasks.classList.add('collapsed'));
+    btn.setAttribute('aria-expanded', 'false');
+    btn.textContent = btn.textContent.replace('▾', '▸');
+  } else {
+    subtasks.classList.remove('collapsed');
+    subtasks.style.maxHeight = subtasks.scrollHeight + 'px';
+    btn.setAttribute('aria-expanded', 'true');
+    btn.textContent = btn.textContent.replace('▸', '▾');
+  }
+}
+
+// Init subtask max-heights for smooth animation
+document.querySelectorAll('.subtasks').forEach(s => {
+  s.style.maxHeight = s.scrollHeight + 'px';
+});
+</script>
+</body>
+</html>

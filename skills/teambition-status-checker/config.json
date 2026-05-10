@@ -1,0 +1,51 @@
+{
+  "api_base_url": "https://www.teambition.com",
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "content-type": "application/json",
+    "origin": "https://www.teambition.com",
+    "referer": "https://www.teambition.com/organization/6514e1c063755e25cd655e75/task/my",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "x-tenant-id": "6514e1c063755e25cd655e75",
+    "x-timezone": "480",
+    "Cookie": "_ga=GA1.2.19847895.1772696461; TB_GTA=%7B%22pf%22%3A%7B%22cd%22%3A%22.teambition.com%22%2C%22dr%22%3A0%7D%2C%22uk%22%3A%226618de71689d3614fccd6328%22%7D; _ga_W3P8NGKXX5=GS2.2.s1776405038$o2$g0$t1776405040$j58$l0$h0; TEAMBITION_SESSIONID=eyJhdXRoVXBkYXRlZCI6MTcxNjQzMjAwMDQ4MCwiaWF0IjoxNzc2NDA1MDQyLCJsb2dpbkZyb20iOiJkaW5nVGFsayIsImxvZ2luVGltZSI6MCwic3RhdGUiOnt9LCJ1aWQiOiI2NjE4ZGU3MTY4OWQzNjE0ZmNjZDYzMjgiLCJ1c2VyIjp7Il9pZCI6IjY2MThkZTcxNjg5ZDM2MTRmY2NkNjMyOCIsIm5hbWUiOiLmnY7nj7oiLCJlbWFpbCI6IjY2MThkZTcxMTlhY2ZkMmI3Y2Q3ZmU2MEBtYWlsLnRlYW1iaXRpb24uY29tIiwiYXZhdGFyVXJsIjoiaHR0cHM6Ly9zdGF0aWMtbGVnYWN5LmRpbmd0YWxrLmNvbS9tZWRpYS9sUUxQTTQzRFRGanVpRTNOQXlETkF5Q3dySEdqSlVEcUZlc0dMZEtaM2R5ekFBXzgwMF84MDAucG5nIiwicmVnaW9uIjoiIiwibGFuZyI6IiIsImlzUm9ib3QiOmZhbHNlLCJvcGVuSWQiOiIiLCJwaG9uZUZvckxvZ2luIjoiIiwib3JnYW5pemF0aW9uSWQiOiIifX0=; TEAMBITION_SESSIONID.sig=Iw3hVgY4SYlZ2Lcbr3N6Y32VGr8; TB_ACCESS_TOKEN=eyJhbGciOiJFZDI1NTE5IiwidHlwIjoiSldUIn0.eyJhcHAiOiI1ZDRjZWMzMGE1NWMwOTAwMDE3MWNiZDQiLCJhdWQiOiIiLCJleHAiOjE3Nzg1ODU4MzUsImlhdCI6MTc3ODMyNjYzNSwiaXNzIjoidHdzIiwianRpIjoicjA3MU9YNG1rQktmTXctSWdtQ3U4RTJScER0YVItWEc2Qi1XU09ZRDF2Yz0iLCJyZW5ld2VkIjoxNzE2NDMyMDAwNDgwLCJzY3AiOlsiYXBwX3VzZXIiXSwic3ViIjoiNjYxOGRlNzE2ODlkMzYxNGZjY2Q2MzI4IiwidHlwIjoiYWNjZXNzX3Rva2VuIn0.vh3CHRKwPwmTUTPSKk_Z48NbIj7JQDl9H7m5iqZViDqIG8IHB94vS1Ywymdp1yGdWJdRNkCw0ohnOS_wi4-IBw; teambition_lang=zh"
+  },
+  "query_params": {
+    "viewId": "664eaf7d179c4c8f86274740",
+    "viewType": "myTask",
+    "pageSize": 100,
+    "tql": "isDone = false ORDER BY created DESC"
+  },
+  "target_project": "数创总需求池",
+  "custom_field_id": "67c68d313af088420a6d42ad",
+  "plan_field_id": "660a270a8abd8c81d457031d",
+  "main_status_levels": {
+    "需求已接收": 1,
+    "技术评估中": 2,
+    "评估完成": 3,
+    "立项中": 4,
+    "决策通过": 5,
+    "产品已接收": 6,
+    "产品方案设计中": 7,
+    "产品方案已完成 待确认": 8,
+    "产品方案已确认": 9,
+    "开发中": 10,
+    "测试中": 11,
+    "已发布": 12,
+    "验收中": 13,
+    "验收完成": 14,
+    "需求完成": 15
+  },
+  "subtask_status_levels": {
+    "待处理": 2,
+    "评估完成": 3,
+    "产品方案设计中": 7,
+    "产品方案完成": 8,
+    "开发中": 10,
+    "测试中": 11,
+    "已发布": 12,
+    "验收中": 13,
+    "已完成": 15
+  }
+}
